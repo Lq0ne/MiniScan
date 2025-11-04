@@ -1,0 +1,868 @@
+[2025-11-03 17:39:11.134 INFO  ]
+loggerConfig:
+   level:INFO
+   filename:scan_results\001_translate.log
+   appendLogFile:true
+   installLoggingPrintStreams:true
+
+   logger:com.fortify.logging.log4j2.LoggerFactory marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2025-11-03 17:39:11.233 INFO  ]
+0 suppressions loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2025-11-03 17:39:11.234 INFO  ]
+0 level adjustments loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2025-11-03 17:39:12.452 INFO  ]
+OpenText SAST (Fortify) 25.3.0.0014 (using JRE 17.0.14)
+Modules:
+.NET Frontend 25.3.0.0014
+.NET and ASP.NET Translators 25.3.0.0014
+AngularJS Translator Utils 25.3.0.0014
+Apex Translator 25.3.0.0014
+C/C++ Translator (CTran) 25.3.0.0001
+COBOL Translator 83
+Flight main!09992_338faf4dca028
+Go Translator 25.3.0.0014 HEAD
+Kotlin Translator 25.3.0.0014
+Legacy Apex Translator 25.3.0.0014
+Legacy Translators 25.3.0.0014
+MSBuild Plugin 25.3.0.0014
+Modified Rhino 25.3.0.0014
+PHP Translator 25.3.0.0014
+Python Translator 25.3.0.0014
+SCA Backend 25.3.0.0014
+SCA Frontend 25.3.0.0014
+SCA Platform 25.3.0.0014
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=INFO_VERBOSE} NDC:[]
+[2025-11-03 17:39:12.453 INFO  ]
+Args:
+["-b", "001", "-logfile", "scan_results\\001_translate.log", "result\\YSL\u5723\u7f57\u5170\u7f8e\u5986\u4f1a\u5458\u4ff1\u4e50\u90e8", "-exclude", "YSL??????????/coverage", "-exclude", "YSL??????????/test", "-exclude", "YSL??????????/dist", "-exclude", "YSL??????????/tests", "-exclude", "YSL??????????/__tests__", "-exclude", "YSL??????????/build", "-exclude", "YSL??????????/.git", "-exclude", "YSL??????????/node_modules", "-exclude", "**/*.min.js", "-exclude", "**/yarn.lock", "-exclude", "**/*.bundle.js", "-exclude", "**/package-lock.json", "-exclude", "**/*.map"]
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2025-11-03 17:39:12.453 INFO  ]
+VM Args:
+"-XX:+UseParallelGC -XX:SoftRefLRUPolicyMSPerMB=3000 --add-exports=jdk.management/com.sun.management.internal=ALL-UNNAMED --add-exports=java.base/jdk.internal.misc=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/sun.security.jca=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.util.regex=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/javax.crypto=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED -Xmx30449155277 -Xss16M"
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2025-11-03 17:39:12.546 INFO  ]
+Front End started
+   logger:com.fortify.sca.frontend.FrontEndSession marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=LOG_STATUS, step=INIT} NDC:[timerAllFrontEnds]
+[2025-11-03 17:39:13.390 INFO  1470]
+Translating C:\Users\Lq0ne\AppData\Local\Fortify\sca25.3\build\001\_fortify_libraries_\lib.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=lib.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:13.596 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\search\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:20.876 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/nearbyStores/shoppingGuideList/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:20.878 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/@babel/runtime/helpers/iterableToArrayLimit.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:20.880 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:20.898 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/@babel/runtime/helpers/slicedToArray.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:20.899 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\order\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:20.923 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\arrayLikeToArray.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=arrayLikeToArray.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.100 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\pages\h5Reservation\h5\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.608 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\Objectentries.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=Objectentries.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.642 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/common.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.644 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\exchangeGifts\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.653 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\qy\birthday\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.668 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\typeof.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=typeof.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.702 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/serviceReservation/serviceRule/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.704 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/memberDayPreheat/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.706 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\slim\register\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.722 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/vmpMachine/vmpMachineResult/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.723 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\Objectvalues.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=Objectvalues.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.778 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/serviceReservation/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.779 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/shoppingDetails/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.783 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/h5Reservation/register/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.785 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/modifyInfo/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.786 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\exchangeRule\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.800 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/@babel/runtime/helpers/toPrimitive.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.801 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\switchAccount\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.817 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/shoppingDetails/exclusiveGiftDetail/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.820 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\defineProperty.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=defineProperty.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.863 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\toPropertyKey.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=toPropertyKey.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.902 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/@babel/runtime/helpers/objectSpread2.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:21.904 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\app.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=app.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.376 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/runtime.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.378 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/taro.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.379 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/vendors.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.380 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/@babel/runtime/helpers/Arrayincludes.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.380 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\comp.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=comp.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.390 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/components/src/CPainter/painter/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.391 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/mini/pages/webview/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.392 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/lbs/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.393 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/mini/pages/layoutPage/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.393 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/serviceReservation/appointmentRegistration/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.394 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\slim\h5\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.403 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/nearbyStores/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.404 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\reviewOrder\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.412 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/emptyBottleRecycling/recyclingRule/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.415 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/extendModules/address/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.415 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\arrayWithHoles.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=arrayWithHoles.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.421 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\confirm\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.430 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/emptyBottleRecycling/recyclingReservation/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.431 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/myCoupons/settlement/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.432 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\qy\birthday\result\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.439 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/vmpMachine/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.441 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/register/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.442 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/exchangeGifts/exchangeRecord/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.442 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\calculatorDetail\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.449 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/serviceReservation/appointmentRecord/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.451 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/product/detail/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.451 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/myCoupons/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.453 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/mine/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.453 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\classCallCheck.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=classCallCheck.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.457 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\index\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.464 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/pointsDetails/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.464 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\custom-wrapper.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=custom-wrapper.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.472 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/exchangeGifts/orderDetail/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.472 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/h5Reservation/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.473 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/serviceReservation/appointmentDetails/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.473 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\settlement\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.481 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/myCoupons/orderDetail/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.482 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/memberDayPreheat/qy/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.483 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\settlement\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.489 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\orderDetail\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.498 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/connect2/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.498 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/@babel/runtime/helpers/createClass.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.499 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/explore/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.499 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/christmasIntegral/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.500 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\slim\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.505 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\shoppingCart\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.517 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/product/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.518 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\nonIterableRest.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=nonIterableRest.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.523 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/@babel/runtime/helpers/unsupportedIterableToArray.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.523 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/mini/pages/imagePage/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.523 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/exchangeGifts/settlement/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.524 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/internalMessage/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.525 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/nearbyStores/shoppingGuideDetail/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.526 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\calculator\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.534 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/exchangeGifts/exchangeRule/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.537 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/emptyBottleRecycling/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.538 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/index/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.539 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/exchangeGifts/shoppingCart/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.540 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/exchangeGifts/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.540 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\h5Reservation\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.586 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/serviceReservation/evaluation/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.587 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/emptyBottleRecycling/recyclingRecords/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.588 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\calculator\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.597 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/pages/activity/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.598 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/modules/serviceReservation/serviceDetails/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.599 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\wxStore\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.607 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/YSL圣罗兰美妆会员俱乐部/submodule/extendModules/couponActivity/index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=12073, severity=INFO_VERBOSE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.607 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\debug\index.js
+   logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.625 INFO  ]
+No Vue app root
+   logger:com.fortify.frontend.translator.typescript.frameworks.vue.VueAppModel marker:DEV thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=-1, severity=NONE, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.627 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\search\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.699 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.701 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\order\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.702 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\arrayLikeToArray.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=arrayLikeToArray.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.720 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\pages\h5Reservation\h5\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.781 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\Objectentries.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=Objectentries.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.784 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\exchangeGifts\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.785 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\qy\birthday\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.786 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\typeof.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=typeof.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.790 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\slim\register\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.791 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\Objectvalues.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=Objectvalues.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.796 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\exchangeRule\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.797 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\switchAccount\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.798 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\defineProperty.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=defineProperty.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.807 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\toPropertyKey.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=toPropertyKey.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:28.813 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\app.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=app.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.112 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\comp.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=comp.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.117 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\slim\h5\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.118 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\reviewOrder\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.119 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\arrayWithHoles.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=arrayWithHoles.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.122 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\confirm\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.123 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\qy\birthday\result\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.124 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\calculatorDetail\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.125 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\classCallCheck.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=classCallCheck.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.127 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\index\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.128 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\custom-wrapper.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=custom-wrapper.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.130 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\settlement\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.132 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\settlement\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.133 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\orderDetail\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.134 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\slim\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.135 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\shoppingCart\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.136 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\@babel\runtime\helpers\nonIterableRest.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=nonIterableRest.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.138 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\weCom\pages\calculator\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.139 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\h5Reservation\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.152 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\submodule\extendModules\memberDay\pages\calculator\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.153 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\wxStore\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:30.155 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\YSL圣罗兰美妆会员俱乐部\subPages\debug\index.js
+   logger:com.fortify.sca.frontend.TypeScriptFrontEnd marker:USER thread:sourceanalyzer-31
+   MDC:{frontend=JavaScriptFrontEnd, msgId=1470, pass=Translating, severity=INFO_VERBOSE, sourceInfo=index.js, step=INIT} NDC:[timerAllFrontEnds, timerJavaScriptFrontEnd]
+[2025-11-03 17:39:33.040 INFO  ]
+Front End complete
+   logger:com.fortify.sca.frontend.FrontEndSession marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=LOG_STATUS, step=INIT} NDC:[timerAllFrontEnds]
+[2025-11-03 17:39:33.471 INFO  ]
+Timers: (elapsed 00:00)
+AllFrontEnds:                                00:00 [787]         00:20 [20494]
+ApexFrontEnd:                                00:00 [11]          00:00 [11]
+DotnetFrontEnd:                              00:00 [100]         00:00 [100]
+JavaFrontEnd:                                00:00 [1]           00:00 [1]
+JavaScriptFrontEnd:                          00:18 [18869]       00:19 [19554]
+KotlinFrontEnd:                              00:00 [2]           00:00 [2]
+PHPFrontEnd:                                 00:00 [31]          00:00 [31]
+Python.App_Finder:                           00:00 [1]           00:00 [1]
+PythonFrontEnd:                              00:00 [4]           00:00 [5]
+RubyFrontEnd:                                00:00 [1]           00:00 [1]
+RuleLoad.loadStubLibraries:                  00:00 [685]         00:00 [685]
+VB6FrontEnd:                                 00:00 [1]           00:00 [1]
+VBScriptFrontEnd:                            00:00 [1]           00:00 [1]
+
+Counters:
+FrontEnd.javascript.Files: 2
+FrontEnd.typescript.Files: 37
+
+Heap: [free:] 1,328,531,400 [max:] 27,067,416,576 [total:] 2,043,150,336
+Live NST: [VarDecl:] 0 [FunDecl:] 0
+NST Serializer:  queued: 0  pinned: 0
+NCT Serializer:  queued: 0  pinned: 0
+Task information
+  Completed count:     0
+  Completed time (ms): 0
+Longest tasks (ms):
+
+MxInfo:
+ClassLoadingMXBean: 
+  LoadedClassCount: 12291
+  TotalLoadedClassCount: 12403
+  UnloadedClassCount: 112
+  Verbose: false
+CompilationMXBean: HotSpot 64-Bit Tiered Compilers
+  CompilationTimeMonitoringSupported: true
+  TotalCompilationTime: 124259
+[GarbageCollectorMXBeans]
+  GarbageCollectorMXBean: PS MarkSweep
+    CollectionCount: 3
+    CollectionTime: 148
+    LastGcInfo: GcThreadCount = 1 duration = 119 endTime = 10710 id = 3 startTime = 10591 
+    MemoryPoolNames: [PS Eden Space, PS Survivor Space, PS Old Gen]
+    Valid: true
+  GarbageCollectorMXBean: PS Scavenge
+    CollectionCount: 18
+    CollectionTime: 258
+    LastGcInfo: GcThreadCount = 1 duration = 34 endTime = 21660 id = 18 startTime = 21626 
+    MemoryPoolNames: [PS Eden Space, PS Survivor Space]
+    Valid: true
+MemoryMXBean: 
+  HeapMemoryUsage: init = 530579456(518144K) used = 745493616(728021K) committed = 2043150336(1995264K) max = 27067416576(26433024K)
+  NonHeapMemoryUsage: init = 7667712(7488K) used = 119912616(117102K) committed = 133758976(130624K) max = -1(-1K)
+  ObjectPendingFinalizationCount: 0
+  Verbose: false
+[MemoryPoolMXBeans]
+  MemoryPoolMXBean: CodeHeap 'non-nmethods'
+    MemoryManagerNames: [CodeCacheManager]
+    PeakUsage: init = 2555904(2496K) used = 3382400(3303K) committed = 3473408(3392K) max = 7667712(7488K)
+    Type: Non-heap memory
+    Usage: init = 2555904(2496K) used = 2615168(2553K) committed = 3473408(3392K) max = 7667712(7488K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: Metaspace
+    MemoryManagerNames: [Metaspace Manager]
+    PeakUsage: init = 0(0K) used = 68065632(66470K) committed = 75563008(73792K) max = -1(-1K)
+    Type: Non-heap memory
+    Usage: init = 0(0K) used = 68065632(66470K) committed = 75563008(73792K) max = -1(-1K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: CodeHeap 'profiled nmethods'
+    MemoryManagerNames: [CodeCacheManager]
+    PeakUsage: init = 2555904(2496K) used = 28910592(28233K) committed = 28966912(28288K) max = 121962496(119104K)
+    Type: Non-heap memory
+    Usage: init = 2555904(2496K) used = 26807296(26179K) committed = 28966912(28288K) max = 121962496(119104K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: PS Old Gen
+    CollectionUsage: init = 353894400(345600K) used = 227868064(222527K) committed = 353894400(345600K) max = 20300431360(19824640K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep]
+    PeakUsage: init = 353894400(345600K) used = 300605584(293560K) committed = 353894400(345600K) max = 20300431360(19824640K)
+    Type: Heap memory
+    Usage: init = 353894400(345600K) used = 263561544(257384K) committed = 353894400(345600K) max = 20300431360(19824640K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: Compressed Class Space
+    MemoryManagerNames: [Metaspace Manager]
+    PeakUsage: init = 0(0K) used = 7630048(7451K) committed = 10878976(10624K) max = 1073741824(1048576K)
+    Type: Non-heap memory
+    Usage: init = 0(0K) used = 7630048(7451K) committed = 10878976(10624K) max = 1073741824(1048576K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: PS Survivor Space
+    CollectionUsage: init = 22020096(21504K) used = 108658704(106112K) committed = 133693440(130560K) max = 133693440(130560K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep, PS Scavenge]
+    PeakUsage: init = 22020096(21504K) used = 111640608(109024K) committed = 150994944(147456K) max = 150994944(147456K)
+    Type: Heap memory
+    Usage: init = 22020096(21504K) used = 108658704(106112K) committed = 133693440(130560K) max = 133693440(130560K)
+  MemoryPoolMXBean: PS Eden Space
+    CollectionUsage: init = 132644864(129536K) used = 0(0K) committed = 1555562496(1519104K) max = 9866575872(9635328K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep, PS Scavenge]
+    PeakUsage: init = 132644864(129536K) used = 1122500608(1096192K) committed = 1555562496(1519104K) max = 10106175488(9869312K)
+    Type: Heap memory
+    Usage: init = 132644864(129536K) used = 373273368(364524K) committed = 1555562496(1519104K) max = 9866575872(9635328K)
+  MemoryPoolMXBean: CodeHeap 'non-profiled nmethods'
+    MemoryManagerNames: [CodeCacheManager]
+    PeakUsage: init = 2555904(2496K) used = 14821248(14473K) committed = 14876672(14528K) max = 122028032(119168K)
+    Type: Non-heap memory
+    Usage: init = 2555904(2496K) used = 14802048(14455K) committed = 14876672(14528K) max = 122028032(119168K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+OperatingSystemMXBean: Windows 11
+  Arch: amd64
+  AvailableProcessors: 22
+  CommittedVirtualMemorySize: 3800793088
+  CpuLoad: 0.0
+  FreeMemorySize: 8682844160
+  FreePhysicalMemorySize: 8648937472
+  FreeSwapSpaceSize: 8432746496
+  ProcessCpuLoad: 0.09414174261938779
+  ProcessCpuTime: 96968750000
+  SystemCpuLoad: 0.0
+  SystemLoadAverage: -1.0
+  TotalMemorySize: 33832394752
+  TotalPhysicalMemorySize: 33832394752
+  TotalSwapSpaceSize: 39050731520
+  Version: 10.0
+ThreadMXBean: 
+  CurrentThreadAllocatedBytes: 6553098472
+  CurrentThreadCpuTime: 18843750000
+  CurrentThreadUserTime: 16312500000
+  DaemonThreadCount: 22
+  ObjectMonitorUsageSupported: true
+  PeakThreadCount: 24
+  SynchronizerUsageSupported: true
+  ThreadAllocatedMemoryEnabled: true
+  ThreadAllocatedMemorySupported: true
+  ThreadCount: 24
+  TotalStartedThreadCount: 24
+  TotalThreadAllocatedBytes: 6689144544
+  Thread 1 [main]
+    ThreadCpuTime: 953125000
+    ThreadUserTime: 796875000
+  Thread 2 [Reference Handler]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 3 [Finalizer]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 4 [Signal Dispatcher]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 5 [Attach Listener]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 21 [Common-Cleaner]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 22 [Notification Thread]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 25 [BC FIPS Entropy Daemon]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 26 [Cleaner-0]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 27 [RMI TCP Accept-0]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 31 [sourceanalyzer]
+    ThreadCpuTime: 18843750000
+    ThreadUserTime: 16312500000
+  Thread 32 [Stream Monitor [out] ]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 33 [Stream Monitor [err] ]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 34 [Nashorn AST Serializer]
+    ThreadCpuTime: 156250000
+    ThreadUserTime: 93750000
+  Thread 35 [Nashorn AST Serializer]
+    ThreadCpuTime: 171875000
+    ThreadUserTime: 171875000
+  Thread 36 [Nashorn AST Serializer]
+    ThreadCpuTime: 203125000
+    ThreadUserTime: 203125000
+  Thread 37 [Nashorn AST Serializer]
+    ThreadCpuTime: 140625000
+    ThreadUserTime: 125000000
+  Thread 38 [Nashorn AST Serializer]
+    ThreadCpuTime: 187500000
+    ThreadUserTime: 140625000
+  Thread 39 [Nashorn AST Serializer]
+    ThreadCpuTime: 218750000
+    ThreadUserTime: 156250000
+  Thread 40 [Nashorn AST Serializer]
+    ThreadCpuTime: 234375000
+    ThreadUserTime: 171875000
+  Thread 41 [Nashorn AST Serializer]
+    ThreadCpuTime: 203125000
+    ThreadUserTime: 187500000
+  Thread 42 [Nashorn AST Serializer]
+    ThreadCpuTime: 140625000
+    ThreadUserTime: 78125000
+  Thread 43 [Nashorn AST Serializer]
+    ThreadCpuTime: 218750000
+    ThreadUserTime: 187500000
+  Thread 44 [Nashorn AST Serializer]
+    ThreadCpuTime: 156250000
+    ThreadUserTime: 109375000
+
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=NONE, step=INIT} NDC:[]
+[2025-11-03 17:39:33.540 INFO  ]
+message id statistics:
+   id:        -1 total:       168 totalSuppressedCount:         0 scope:[]
+   id:     12073 total:        61 totalSuppressedCount:         0 scope:[]
+   id:      1450 total:        37 totalSuppressedCount:         0 scope:[]
+   id:      1470 total:        38 totalSuppressedCount:         0 scope:[]
+
+   logger:com.fortify.messaging.MessageSuppressor marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=NONE, step=INIT} NDC:[]
+[2025-11-03 17:39:33.540 INFO  ]
+logger:null  count:147
+   level:INFO count:147
+logger:com.fortify.messaging.MessageSuppressor  count:1
+   level:INFO count:1
+logger:com.fortify.frontend.translator.typescript.frameworks.vue.VueAppModel  count:1
+   level:INFO count:1
+logger:com.fortify.frontend.translator.typescript.preproc.PreprocUtil  count:38
+   level:INFO count:38
+logger:com.fortify.sca.frontend.TypeScriptFrontEnd  count:98
+   level:INFO count:98
+logger:com.fortify.sca.cmd.CommandLine  count:2
+   level:INFO count:2
+logger:com.fortify.logging.log4j2.LoggerFactory  count:1
+   level:INFO count:1
+logger:com.fortify.sca.Main  count:4
+   level:INFO count:4
+logger:com.fortify.sca.frontend.FrontEndSession  count:2
+   level:INFO count:2
+
+   logger:com.fortify.logging.LoggerStats marker:DEV thread:sourceanalyzer-31
+   MDC:{msgId=-1, severity=NONE, step=INIT} NDC:[]

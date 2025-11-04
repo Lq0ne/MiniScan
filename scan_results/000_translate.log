@@ -1,0 +1,1278 @@
+[2025-11-03 17:37:46.128 INFO  1470]
+Translating C:\Users\Lq0ne\AppData\Local\Fortify\sca25.3\build\000\_fortify_libraries_\lib.js
+[2025-11-03 17:37:46.302 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/base/myCoupons/receiveSharedCoupon/index.js
+[2025-11-03 17:37:46.303 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\shoppingCart\index.js
+[2025-11-03 17:37:52.554 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/serviceReservation/index.js
+[2025-11-03 17:37:52.557 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/base/businessInfo/index.js
+[2025-11-03 17:37:52.558 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/taro.js
+[2025-11-03 17:37:52.559 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/webview/index.js
+[2025-11-03 17:37:52.560 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/activity/index.js
+[2025-11-03 17:37:52.561 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/serviceReservation/appointmentRecord/index.js
+[2025-11-03 17:37:52.561 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/exchangeGifts/exchangeRecord/index.js
+[2025-11-03 17:37:52.562 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\settlement\index.js
+[2025-11-03 17:37:52.580 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/@babel/runtime/helpers/unsupportedIterableToArray.js
+[2025-11-03 17:37:52.580 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/serviceReservation/serviceDetails/index.js
+[2025-11-03 17:37:52.581 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/nearbyStores/shoppingGuideList/index.js
+[2025-11-03 17:37:52.582 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/@babel/runtime/helpers/Arrayincludes.js
+[2025-11-03 17:37:52.582 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/base/membershipBenefits/index.js
+[2025-11-03 17:37:52.583 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\modules\vmpMachine\index.js
+[2025-11-03 17:37:56.658 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/@babel/runtime/helpers/objectSpread2.js
+[2025-11-03 17:37:56.659 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/demo/index.js
+[2025-11-03 17:37:56.659 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/mini/pages/layoutPage/index.js
+[2025-11-03 17:37:56.660 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\app.js
+[2025-11-03 17:37:56.864 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/runtime.js
+[2025-11-03 17:37:56.865 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/vendors.js
+[2025-11-03 17:37:56.874 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/common.js
+[2025-11-03 17:37:56.875 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/memberDay/shoppingCart/index.js
+[2025-11-03 17:37:56.876 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/extendModules/ocpa/index.js
+[2025-11-03 17:37:56.876 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/myCoupons/orderDetail/index.js
+[2025-11-03 17:37:56.877 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/mini/pages/webview/index.js
+[2025-11-03 17:37:56.877 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/pointsDetails/index.js
+[2025-11-03 17:37:56.878 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/exchangeGifts/exchangeDetails/index.js
+[2025-11-03 17:37:56.878 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/emptyBottleRecycling/index.js
+[2025-11-03 17:37:56.880 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\pages\trialCenter\record\index.js
+[2025-11-03 17:37:57.072 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/membershipBenefits/index.js
+[2025-11-03 17:37:57.074 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/serviceReservation/appointmentDetails/index.js
+[2025-11-03 17:37:57.074 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\search\index.js
+[2025-11-03 17:37:57.082 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/scanCodeHome/index.js
+[2025-11-03 17:37:57.083 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\index.js
+[2025-11-03 17:37:57.088 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/@babel/runtime/helpers/createClass.js
+[2025-11-03 17:37:57.089 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/@babel/runtime/helpers/slicedToArray.js
+[2025-11-03 17:37:57.089 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\arrayLikeToArray.js
+[2025-11-03 17:37:57.104 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\index\index.js
+[2025-11-03 17:37:57.111 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/exchangeGifts/settlement/index.js
+[2025-11-03 17:37:57.112 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/extendModules/address/index.js
+[2025-11-03 17:37:57.112 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/@babel/runtime/helpers/toPrimitive.js
+[2025-11-03 17:37:57.113 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\exchangeRule\index.js
+[2025-11-03 17:37:57.120 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/mini/pages/imagePage/index.js
+[2025-11-03 17:37:57.121 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/internalMessage/index.js
+[2025-11-03 17:37:57.122 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\nonIterableRest.js
+[2025-11-03 17:37:57.126 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/electronicProducts/detail/index.js
+[2025-11-03 17:37:57.127 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/explore/index.js
+[2025-11-03 17:37:57.128 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/base/demo/index.js
+[2025-11-03 17:37:57.130 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/modifyInfo/index.js
+[2025-11-03 17:37:57.131 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/base/myCoupons/index.js
+[2025-11-03 17:37:57.132 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/tenthAnniversary/index.js
+[2025-11-03 17:37:57.133 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\confirm\index.js
+[2025-11-03 17:37:57.139 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\calculator\index.js
+[2025-11-03 17:37:57.150 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/emptyBottleRecycling/recyclingRule/index.js
+[2025-11-03 17:37:57.150 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/exchangeGifts/index.js
+[2025-11-03 17:37:57.151 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\comp.js
+[2025-11-03 17:37:57.157 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/myCoupons/settlement/index.js
+[2025-11-03 17:37:57.158 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\Objectentries.js
+[2025-11-03 17:37:57.164 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/exchangeGifts/exchangeRule/index.js
+[2025-11-03 17:37:57.164 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\calculator\index.js
+[2025-11-03 17:37:57.176 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/test/index.js
+[2025-11-03 17:37:57.177 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/mine/index.js
+[2025-11-03 17:37:57.178 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\typeof.js
+[2025-11-03 17:37:57.185 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/shoppingDetails/exclusiveGiftDetail/index.js
+[2025-11-03 17:37:57.185 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/tabbarLayoutPage/index.js
+[2025-11-03 17:37:57.186 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/myCoupons/index.js
+[2025-11-03 17:37:57.186 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/electronicProducts/index.js
+[2025-11-03 17:37:57.187 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\order\index.js
+[2025-11-03 17:37:57.195 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\subPages\skinScienceClub\index.js
+[2025-11-03 17:37:57.205 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\subPages\h5Reservation\h5\index.js
+[2025-11-03 17:37:57.216 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/base/chatbot/chatbot.js
+[2025-11-03 17:37:57.217 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/serviceReservation/serviceRule/index.js
+[2025-11-03 17:37:57.217 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/nearbyStores/index.js
+[2025-11-03 17:37:57.219 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\settlement\index.js
+[2025-11-03 17:37:57.225 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/vmpMachine/vmpMachineResult/index.js
+[2025-11-03 17:37:57.226 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\calculatorDetail\index.js
+[2025-11-03 17:37:57.237 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/register/index.js
+[2025-11-03 17:37:57.237 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/trialCenter/rule/index.js
+[2025-11-03 17:37:57.238 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/emptyBottleRecycling/recyclingRecords/index.js
+[2025-11-03 17:37:57.238 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/tabbarLayoutPage/navigationCustom.js
+[2025-11-03 17:37:57.239 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/trialCenter/index.js
+[2025-11-03 17:37:57.239 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/index/index.js
+[2025-11-03 17:37:57.240 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/components/src/CPainter/painter/index.js
+[2025-11-03 17:37:57.240 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\classCallCheck.js
+[2025-11-03 17:37:57.246 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/exchangeGifts/shoppingCart/index.js
+[2025-11-03 17:37:57.247 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\switchAccount\index.js
+[2025-11-03 17:37:57.255 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\orderDetail\index.js
+[2025-11-03 17:37:57.263 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/shoppingDetails/index.js
+[2025-11-03 17:37:57.263 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/base/chatbot/Audio/Audio.js
+[2025-11-03 17:37:57.264 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/subPages/memberDay/settlement/index.js
+[2025-11-03 17:37:57.264 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/@babel/runtime/helpers/iterableToArrayLimit.js
+[2025-11-03 17:37:57.265 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\arrayWithHoles.js
+[2025-11-03 17:37:57.271 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/extendModules/couponActivity/index.js
+[2025-11-03 17:37:57.271 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/pages/trialCenter/detail/index.js
+[2025-11-03 17:37:57.272 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\reviewOrder\index.js
+[2025-11-03 17:37:57.280 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\toPropertyKey.js
+[2025-11-03 17:37:57.290 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\subPages\h5Reservation\index.js
+[2025-11-03 17:37:57.297 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\Objectvalues.js
+[2025-11-03 17:37:57.304 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/nearbyStores/shoppingGuideDetail/index.js
+[2025-11-03 17:37:57.305 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\defineProperty.js
+[2025-11-03 17:37:57.315 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\custom-wrapper.js
+[2025-11-03 17:37:57.322 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\subPages\skinReport\index.js
+[2025-11-03 17:37:57.329 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/serviceReservation/appointmentRegistration/index.js
+[2025-11-03 17:37:57.329 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/extendModules/couponRedemption/index.js
+[2025-11-03 17:37:57.329 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/LANCOME兰蔻会员中心/submodule/modules/emptyBottleRecycling/recyclingReservation/index.js
+[2025-11-03 17:37:57.330 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\exchangeGifts\index.js
+[2025-11-03 17:37:57.344 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\shoppingCart\index.js
+[2025-11-03 17:37:57.380 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\settlement\index.js
+[2025-11-03 17:37:57.382 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\modules\vmpMachine\index.js
+[2025-11-03 17:37:57.951 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\app.js
+[2025-11-03 17:37:57.972 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\pages\trialCenter\record\index.js
+[2025-11-03 17:37:57.998 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\search\index.js
+[2025-11-03 17:37:57.999 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\index.js
+[2025-11-03 17:37:58.000 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\arrayLikeToArray.js
+[2025-11-03 17:37:58.004 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\index\index.js
+[2025-11-03 17:37:58.005 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\exchangeRule\index.js
+[2025-11-03 17:37:58.006 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\nonIterableRest.js
+[2025-11-03 17:37:58.008 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\confirm\index.js
+[2025-11-03 17:37:58.008 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\calculator\index.js
+[2025-11-03 17:37:58.009 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\comp.js
+[2025-11-03 17:37:58.010 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\Objectentries.js
+[2025-11-03 17:37:58.013 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\calculator\index.js
+[2025-11-03 17:37:58.018 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\typeof.js
+[2025-11-03 17:37:58.023 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\order\index.js
+[2025-11-03 17:37:58.023 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\subPages\skinScienceClub\index.js
+[2025-11-03 17:37:58.024 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\subPages\h5Reservation\h5\index.js
+[2025-11-03 17:37:58.024 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\settlement\index.js
+[2025-11-03 17:37:58.024 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\calculatorDetail\index.js
+[2025-11-03 17:37:58.026 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\classCallCheck.js
+[2025-11-03 17:37:58.027 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\switchAccount\index.js
+[2025-11-03 17:37:58.027 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\orderDetail\index.js
+[2025-11-03 17:37:58.028 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\arrayWithHoles.js
+[2025-11-03 17:37:58.029 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\weCom\pages\reviewOrder\index.js
+[2025-11-03 17:37:58.029 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\toPropertyKey.js
+[2025-11-03 17:37:58.033 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\subPages\h5Reservation\index.js
+[2025-11-03 17:37:58.034 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\Objectvalues.js
+[2025-11-03 17:37:58.034 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\@babel\runtime\helpers\defineProperty.js
+[2025-11-03 17:37:58.038 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\custom-wrapper.js
+[2025-11-03 17:37:58.039 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\subPages\skinReport\index.js
+[2025-11-03 17:37:58.040 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\LANCOME兰蔻会员中心\submodule\extendModules\memberDay\pages\exchangeGifts\index.js
+[2025-11-03 17:45:38.102 INFO  1470]
+Translating C:\Users\Lq0ne\AppData\Local\Fortify\sca25.3\build\000\_fortify_libraries_\lib.js
+[2025-11-03 17:45:38.270 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/stores/base.js
+[2025-11-03 17:45:38.271 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\get-app-ext.js
+[2025-11-03 17:45:45.222 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/sls.js
+[2025-11-03 17:45:45.224 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/showCardList/showCardList.js
+[2025-11-03 17:45:45.225 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\twoBorder\twoBorder.js
+[2025-11-03 17:45:45.243 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/workflow/new_store.js
+[2025-11-03 17:45:45.243 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_9.webview.js
+[2025-11-03 17:45:45.245 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/amap-wx.js
+[2025-11-03 17:45:45.246 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_18.appservice.js
+[2025-11-03 17:45:45.248 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/workflow/index.js
+[2025-11-03 17:45:45.248 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\dishCombo\dishCombo.js
+[2025-11-03 17:45:45.286 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/clause/clause.js
+[2025-11-03 17:45:45.287 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/storage.js
+[2025-11-03 17:45:45.287 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/hotArea/hotArea.js
+[2025-11-03 17:45:45.288 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/useCart/useCart.js
+[2025-11-03 17:45:45.290 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/LikeSelector/LikeSelector.js
+[2025-11-03 17:45:45.290 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/increase-buylist/increase-buylist.js
+[2025-11-03 17:45:45.291 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/shopList-city/shopList-city.js
+[2025-11-03 17:45:45.291 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_24.webview.js
+[2025-11-03 17:45:45.291 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_33.webview.js
+[2025-11-03 17:45:45.293 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/couponsList/couponsList.js
+[2025-11-03 17:45:45.294 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/miniprogram_npm/mobx-miniprogram/index.js
+[2025-11-03 17:45:45.295 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\task\secretTask\index.js
+[2025-11-03 17:45:45.308 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\Objectentries.js
+[2025-11-03 17:45:45.375 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/coupon.js
+[2025-11-03 17:45:45.376 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_19.webview.js
+[2025-11-03 17:45:45.376 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/adultChildOld/adultChildOld.js
+[2025-11-03 17:45:45.377 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/toroute.js
+[2025-11-03 17:45:45.378 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay/components/pay-card/pay-card.js
+[2025-11-03 17:45:45.378 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\allorder\allorder.js
+[2025-11-03 17:45:45.391 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_5.webview.js
+[2025-11-03 17:45:45.392 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_46.webview.js
+[2025-11-03 17:45:45.392 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/objectSpread2.js
+[2025-11-03 17:45:45.393 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/stores/storage.js
+[2025-11-03 17:45:45.394 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\icon\icon.js
+[2025-11-03 17:45:45.421 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\orderList\orderList.js
+[2025-11-03 17:45:45.437 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/common-navigator/common-navigator.js
+[2025-11-03 17:45:45.438 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/order-dish/order-dish.js
+[2025-11-03 17:45:45.438 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/slicedToArray.js
+[2025-11-03 17:45:45.439 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/vip-content.js
+[2025-11-03 17:45:45.439 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_37.webview.js
+[2025-11-03 17:45:45.442 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\miniprogram_npm\mobx-miniprogram-bindings\index.js
+[2025-11-03 17:45:46.180 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\typeof.js
+[2025-11-03 17:45:46.207 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/construct.js
+[2025-11-03 17:45:46.208 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\editAddress\editAddress.js
+[2025-11-03 17:45:46.220 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/task.js
+[2025-11-03 17:45:46.220 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_19.appservice.js
+[2025-11-03 17:45:46.222 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/utils/couponUtil.js
+[2025-11-03 17:45:46.223 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/order.js
+[2025-11-03 17:45:46.227 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/createForOfIteratorHelper.js
+[2025-11-03 17:45:46.230 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/bill/bill.js
+[2025-11-03 17:45:46.230 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_28.webview.js
+[2025-11-03 17:45:46.231 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\pay\pages\chargeRule\chargeRule.js
+[2025-11-03 17:45:46.242 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/formatPeople.js
+[2025-11-03 17:45:46.242 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/new-authorize/new-authorize.js
+[2025-11-03 17:45:46.243 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/memberCredit/memberCredit.js
+[2025-11-03 17:45:46.244 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_25.webview.js
+[2025-11-03 17:45:46.244 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/pay.js
+[2025-11-03 17:45:46.245 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_26.appservice.js
+[2025-11-03 17:45:46.246 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/useCart/useCartUtil.js
+[2025-11-03 17:45:46.247 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_1.webview.js
+[2025-11-03 17:45:46.247 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/getAuthorize/getAuthorize.js
+[2025-11-03 17:45:46.247 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\invoicedList\invoicedList.js
+[2025-11-03 17:45:46.257 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\invoiceList\invoiceList.js
+[2025-11-03 17:45:46.265 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/md.js
+[2025-11-03 17:45:46.266 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_17.appservice.js
+[2025-11-03 17:45:46.266 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/workflow/sagaRegistry.js
+[2025-11-03 17:45:46.267 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\order\order.js
+[2025-11-03 17:45:46.275 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/coupons.js
+[2025-11-03 17:45:46.275 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_12.appservice.js
+[2025-11-03 17:45:46.276 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\badge\pages\wall\index.js
+[2025-11-03 17:45:46.292 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/utils/cookNorms.js
+[2025-11-03 17:45:46.292 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/stores/app.js
+[2025-11-03 17:45:46.293 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/member/member.js
+[2025-11-03 17:45:46.294 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\indexMap\indexMap.js
+[2025-11-03 17:45:46.305 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_15.webview.js
+[2025-11-03 17:45:46.305 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_16.appservice.js
+[2025-11-03 17:45:46.305 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/toConsumableArray.js
+[2025-11-03 17:45:46.306 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/dish-memo.js
+[2025-11-03 17:45:46.306 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/check-order-lock.js
+[2025-11-03 17:45:46.307 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_8.webview.js
+[2025-11-03 17:45:46.307 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/utils/toppings.js
+[2025-11-03 17:45:46.307 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/objectWithoutProperties.js
+[2025-11-03 17:45:46.308 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\bindcard\bindcard.js
+[2025-11-03 17:45:46.319 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_30.webview.js
+[2025-11-03 17:45:46.320 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_20.webview.js
+[2025-11-03 17:45:46.321 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/term/term.js
+[2025-11-03 17:45:46.321 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/requiredDishTips/requiredDishTips.js
+[2025-11-03 17:45:46.322 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/createClass.js
+[2025-11-03 17:45:46.322 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/couponsBox/couponsBox.js
+[2025-11-03 17:45:46.323 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/api.js
+[2025-11-03 17:45:46.323 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/pay-new.js
+[2025-11-03 17:45:46.324 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\index\index.js
+[2025-11-03 17:45:46.332 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\utils\type.js
+[2025-11-03 17:45:46.341 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/app.js
+[2025-11-03 17:45:46.341 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/createSuper.js
+[2025-11-03 17:45:46.342 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/tableCode/tableCode.js
+[2025-11-03 17:45:46.342 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/oss-pic-options.js
+[2025-11-03 17:45:46.343 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_39.appservice.js
+[2025-11-03 17:45:46.343 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/unsupportedIterableToArray.js
+[2025-11-03 17:45:46.344 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/setColor.js
+[2025-11-03 17:45:46.344 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_7.appservice.js
+[2025-11-03 17:45:46.345 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\increaseBuyPage\increaseBuyPage.js
+[2025-11-03 17:45:46.354 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/shopList-searchResult/shopList-searchResult.js
+[2025-11-03 17:45:46.354 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\OverloadYield.js
+[2025-11-03 17:45:46.361 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\location\pages\shopList\shopList.js
+[2025-11-03 17:45:46.376 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\growthDetail\growthDetail.js
+[2025-11-03 17:45:46.385 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\test\main.js
+[2025-11-03 17:45:46.389 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/payButton/payButton.js
+[2025-11-03 17:45:46.390 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_43.webview.js
+[2025-11-03 17:45:46.391 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/mineInfo/mineInfo.js
+[2025-11-03 17:45:46.391 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/coupons/components/store-list/store-list.js
+[2025-11-03 17:45:46.391 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_6.webview.js
+[2025-11-03 17:45:46.391 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_27.appservice.js
+[2025-11-03 17:45:46.392 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\refund\refund.js
+[2025-11-03 17:45:46.401 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\arrayLikeToArray.js
+[2025-11-03 17:45:46.416 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_11.appservice.js
+[2025-11-03 17:45:46.417 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/EventEmitter.js
+[2025-11-03 17:45:46.418 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_16.webview.js
+[2025-11-03 17:45:46.419 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/phoneNumberBtn/phoneNumberBtn.js
+[2025-11-03 17:45:46.420 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/index-adslide/index-adslide.js
+[2025-11-03 17:45:46.421 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/index-menu/index-menu.js
+[2025-11-03 17:45:46.421 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/vipcard/vipcard.js
+[2025-11-03 17:45:46.421 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/index.js
+[2025-11-03 17:45:46.422 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/priceDetail/priceDetail.js
+[2025-11-03 17:45:46.422 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_36.webview.js
+[2025-11-03 17:45:46.422 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/coupons-coupList/coupons-coupList.js
+[2025-11-03 17:45:46.422 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\pay\pages\pay\pay.js
+[2025-11-03 17:45:46.432 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/socket.js
+[2025-11-03 17:45:46.433 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\defineProperty.js
+[2025-11-03 17:45:46.454 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\toPropertyKey.js
+[2025-11-03 17:45:46.470 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/toPrimitive.js
+[2025-11-03 17:45:46.470 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/user.js
+[2025-11-03 17:45:46.471 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_9.appservice.js
+[2025-11-03 17:45:46.471 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/app_requests.js
+[2025-11-03 17:45:46.472 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/amap-fn.js
+[2025-11-03 17:45:46.472 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\invoice\invoice.js
+[2025-11-03 17:45:46.481 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_10.appservice.js
+[2025-11-03 17:45:46.482 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_18.webview.js
+[2025-11-03 17:45:46.482 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/utils/order.js
+[2025-11-03 17:45:46.483 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/shopList/shopList.js
+[2025-11-03 17:45:46.484 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/workflow/payorder.js
+[2025-11-03 17:45:46.484 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/payCoupon/payCoupon.js
+[2025-11-03 17:45:46.484 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\pay\pages\waiting\waiting.js
+[2025-11-03 17:45:46.492 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_2.webview.js
+[2025-11-03 17:45:46.492 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_38.webview.js
+[2025-11-03 17:45:46.492 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/couponTransferModal/couponTransferModal.js
+[2025-11-03 17:45:46.493 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\spacing\spacing.js
+[2025-11-03 17:45:46.499 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/addressAuthorize/addressAuthorize.js
+[2025-11-03 17:45:46.499 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/orderdetail.js
+[2025-11-03 17:45:46.499 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\task\secretCenter\index.js
+[2025-11-03 17:45:46.506 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\badge\pages\detail\index.js
+[2025-11-03 17:45:46.513 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_47.appservice.js
+[2025-11-03 17:45:46.513 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/getPhoneNumberModal/getPhoneNumberModal.js
+[2025-11-03 17:45:46.514 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/modal-default/modal-default.js
+[2025-11-03 17:45:46.514 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/store.js
+[2025-11-03 17:45:46.514 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/miniprogram_npm/@henrydf/mp-axios/index.js
+[2025-11-03 17:45:46.515 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/format.js
+[2025-11-03 17:45:46.516 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\phoneButton\phoneButton.js
+[2025-11-03 17:45:46.523 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_4.webview.js
+[2025-11-03 17:45:46.524 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\qiyu\index.js
+[2025-11-03 17:45:46.531 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\hasInvoice\hasInvoice.js
+[2025-11-03 17:45:46.540 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/coupons/coupons.js
+[2025-11-03 17:45:46.540 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_38.appservice.js
+[2025-11-03 17:45:46.540 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\setPassword\setPassword.js
+[2025-11-03 17:45:46.549 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/toast/toast.js
+[2025-11-03 17:45:46.549 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/utils/calculate.js
+[2025-11-03 17:45:46.550 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/chargeRules/chargeRules.js
+[2025-11-03 17:45:46.551 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_8.appservice.js
+[2025-11-03 17:45:46.551 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/pay-wx/pay-wx.js
+[2025-11-03 17:45:46.552 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/h5MallPay/h5MallPay.js
+[2025-11-03 17:45:46.552 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\orderdetail\orderdetail.js
+[2025-11-03 17:45:46.564 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_37.appservice.js
+[2025-11-03 17:45:46.565 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\recommendFullscreen\recommendFullscreen.js
+[2025-11-03 17:45:46.576 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/time.js
+[2025-11-03 17:45:46.576 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_41.webview.js
+[2025-11-03 17:45:46.577 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_51.webview.js
+[2025-11-03 17:45:46.577 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_13.webview.js
+[2025-11-03 17:45:46.579 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/payCoupon/payCouponUtil.js
+[2025-11-03 17:45:46.579 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_23.webview.js
+[2025-11-03 17:45:46.580 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_28.appservice.js
+[2025-11-03 17:45:46.580 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/time/time.js
+[2025-11-03 17:45:46.580 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/workflow/init.js
+[2025-11-03 17:45:46.581 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\iterableToArray.js
+[2025-11-03 17:45:46.588 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_21.webview.js
+[2025-11-03 17:45:46.589 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_31.webview.js
+[2025-11-03 17:45:46.589 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/scan/scan.js
+[2025-11-03 17:45:46.589 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/ChargePolicy/ChargePolicy.js
+[2025-11-03 17:45:46.591 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_11.webview.js
+[2025-11-03 17:45:46.591 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_29.appservice.js
+[2025-11-03 17:45:46.591 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\model\model.js
+[2025-11-03 17:45:46.599 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/locale.js
+[2025-11-03 17:45:46.600 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/luckyDraw/index.js
+[2025-11-03 17:45:46.601 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_2.appservice.js
+[2025-11-03 17:45:46.601 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_34.appservice.js
+[2025-11-03 17:45:46.601 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/welcome/welcome.js
+[2025-11-03 17:45:46.602 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/pay-charge/pay-charge.js
+[2025-11-03 17:45:46.602 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/store.js
+[2025-11-03 17:45:46.602 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/getData.js
+[2025-11-03 17:45:46.603 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\selectCard\selectCard.js
+[2025-11-03 17:45:46.609 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_53.webview.js
+[2025-11-03 17:45:46.609 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/definations/marketing.js
+[2025-11-03 17:45:46.610 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\personal\personal.js
+[2025-11-03 17:45:46.620 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_48.appservice.js
+[2025-11-03 17:45:46.620 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_43.appservice.js
+[2025-11-03 17:45:46.621 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\createInvoice\createInvoice.js
+[2025-11-03 17:45:46.627 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_44.webview.js
+[2025-11-03 17:45:46.627 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/msg/msg.js
+[2025-11-03 17:45:46.627 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_32.appservice.js
+[2025-11-03 17:45:46.629 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_45.appservice.js
+[2025-11-03 17:45:46.629 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\invoiceDetail\invoiceDetail.js
+[2025-11-03 17:45:46.639 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/functionZone/functionZone.js
+[2025-11-03 17:45:46.639 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_39.webview.js
+[2025-11-03 17:45:46.640 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/pay.js
+[2025-11-03 17:45:46.640 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/dishButton/dishButton.js
+[2025-11-03 17:45:46.641 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/customNavbar/customNavbar.js
+[2025-11-03 17:45:46.642 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/svg-color.js
+[2025-11-03 17:45:46.642 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_26.webview.js
+[2025-11-03 17:45:46.642 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/address/address.js
+[2025-11-03 17:45:46.642 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_0.appservice.js
+[2025-11-03 17:45:46.643 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/goPage.js
+[2025-11-03 17:45:46.643 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/shopConfig.js
+[2025-11-03 17:45:46.644 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/constant.js
+[2025-11-03 17:45:46.644 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/receiveCoupons/receiveCoupons.js
+[2025-11-03 17:45:46.645 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_17.webview.js
+[2025-11-03 17:45:46.645 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_3.webview.js
+[2025-11-03 17:45:46.645 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_31.appservice.js
+[2025-11-03 17:45:46.646 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/mpoauth.js
+[2025-11-03 17:45:46.646 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\completeInfo\completeInfo.js
+[2025-11-03 17:45:46.659 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_46.appservice.js
+[2025-11-03 17:45:46.659 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/object.js
+[2025-11-03 17:45:46.660 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_1.appservice.js
+[2025-11-03 17:45:46.660 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/app_session.js
+[2025-11-03 17:45:46.661 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/welifeRule.js
+[2025-11-03 17:45:46.661 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/brand.js
+[2025-11-03 17:45:46.661 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_48.webview.js
+[2025-11-03 17:45:46.661 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/vipClausePrompt/vipClausePrompt.js
+[2025-11-03 17:45:46.662 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/idCardUtil.js
+[2025-11-03 17:45:46.662 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/scanCoupon/scanCoupon.js
+[2025-11-03 17:45:46.662 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/dish-num-modal/dish-num-modal.js
+[2025-11-03 17:45:46.663 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/index-video/index-video.js
+[2025-11-03 17:45:46.663 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/scanCode/scanCode.js
+[2025-11-03 17:45:46.663 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/log.js
+[2025-11-03 17:45:46.664 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_30.appservice.js
+[2025-11-03 17:45:46.664 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_45.webview.js
+[2025-11-03 17:45:46.665 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\assertThisInitialized.js
+[2025-11-03 17:45:46.677 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\classCallCheck.js
+[2025-11-03 17:45:46.687 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_35.webview.js
+[2025-11-03 17:45:46.688 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/util.js
+[2025-11-03 17:45:46.689 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/storeFreeBox/storeFreeBox.js
+[2025-11-03 17:45:46.690 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/useCart/useCartLocal.js
+[2025-11-03 17:45:46.690 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\CardList\CardList.js
+[2025-11-03 17:45:46.701 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/orderdetail-status/orderdetail-status.js
+[2025-11-03 17:45:46.702 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_21.appservice.js
+[2025-11-03 17:45:46.703 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/listAddress/listAddress.js
+[2025-11-03 17:45:46.703 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\sectionRefund\sectionRefund.js
+[2025-11-03 17:45:46.713 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\nonIterableSpread.js
+[2025-11-03 17:45:46.724 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\search\search.js
+[2025-11-03 17:45:46.733 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_54.appservice.js
+[2025-11-03 17:45:46.734 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/utils/dish-count.js
+[2025-11-03 17:45:46.734 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/datePicker/datePicker.js
+[2025-11-03 17:45:46.734 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/tabBar/tabBar.js
+[2025-11-03 17:45:46.734 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_44.appservice.js
+[2025-11-03 17:45:46.735 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/h5shell/h5shell.js
+[2025-11-03 17:45:46.735 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\awaitAsyncGenerator.js
+[2025-11-03 17:45:46.750 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\arrayWithHoles.js
+[2025-11-03 17:45:46.760 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/combo.js
+[2025-11-03 17:45:46.760 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_7.webview.js
+[2025-11-03 17:45:46.761 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/coupon-group-popup/coupon-group-popup.js
+[2025-11-03 17:45:46.761 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/index-adfixed/index-adfixed.js
+[2025-11-03 17:45:46.762 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/addressList/addressList.js
+[2025-11-03 17:45:46.762 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/openLoc/openLoc.js
+[2025-11-03 17:45:46.763 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\objectWithoutPropertiesLoose.js
+[2025-11-03 17:45:46.787 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\activity\pages\luckyDraw\index.js
+[2025-11-03 17:45:46.798 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/cart.js
+[2025-11-03 17:45:46.798 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_40.appservice.js
+[2025-11-03 17:45:46.799 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/qwFriends/qwFriends.js
+[2025-11-03 17:45:46.799 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/cart.js
+[2025-11-03 17:45:46.799 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/couponModal/couponModal.js
+[2025-11-03 17:45:46.799 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/memberCard/memberCard.js
+[2025-11-03 17:45:46.799 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/modal/modal.js
+[2025-11-03 17:45:46.800 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/progressBar/progressBar.js
+[2025-11-03 17:45:46.800 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\objectDestructuringEmpty.js
+[2025-11-03 17:45:46.807 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\mine\mine.js
+[2025-11-03 17:45:46.815 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\Objectvalues.js
+[2025-11-03 17:45:46.830 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/inherits.js
+[2025-11-03 17:45:46.830 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\setPrototypeOf.js
+[2025-11-03 17:45:46.841 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/storage.js
+[2025-11-03 17:45:46.841 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/regeneratorRuntime.js
+[2025-11-03 17:45:46.841 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_49.appservice.js
+[2025-11-03 17:45:46.842 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_36.appservice.js
+[2025-11-03 17:45:46.842 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/pay-new.js
+[2025-11-03 17:45:46.842 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/privacyPermission/privacyPermission.js
+[2025-11-03 17:45:46.842 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_40.webview.js
+[2025-11-03 17:45:46.842 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_5.appservice.js
+[2025-11-03 17:45:46.843 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\getPrototypeOf.js
+[2025-11-03 17:45:46.856 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_10.webview.js
+[2025-11-03 17:45:46.856 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/dinnerTime.js
+[2025-11-03 17:45:46.856 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/fn.js
+[2025-11-03 17:45:46.857 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/request.js
+[2025-11-03 17:45:46.857 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_35.appservice.js
+[2025-11-03 17:45:46.857 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/workflow/cart.js
+[2025-11-03 17:45:46.857 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_6.appservice.js
+[2025-11-03 17:45:46.858 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\orderTip\orderTip.js
+[2025-11-03 17:45:46.870 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\getLoginModal\getLoginModal.js
+[2025-11-03 17:45:46.881 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_20.appservice.js
+[2025-11-03 17:45:46.881 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_50.webview.js
+[2025-11-03 17:45:46.882 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/global-extension.js
+[2025-11-03 17:45:46.882 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/subscribe.js
+[2025-11-03 17:45:46.883 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/judgement-authorize.js
+[2025-11-03 17:45:46.883 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\copyright\copyright.js
+[2025-11-03 17:45:46.893 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_50.appservice.js
+[2025-11-03 17:45:46.894 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_13.appservice.js
+[2025-11-03 17:45:46.900 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay-new/components/equity-card/equity-card.js
+[2025-11-03 17:45:46.901 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/authorize-success/authorize-success.js
+[2025-11-03 17:45:46.902 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_0.webview.js
+[2025-11-03 17:45:46.902 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/couponAccModal/couponModal.js
+[2025-11-03 17:45:46.903 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_14.webview.js
+[2025-11-03 17:45:46.903 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/couponDetail/couponDetail.js
+[2025-11-03 17:45:46.904 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_54.webview.js
+[2025-11-03 17:45:46.904 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/app.config.js
+[2025-11-03 17:45:46.905 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/componentsModule/componentsModule.js
+[2025-11-03 17:45:46.906 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_22.appservice.js
+[2025-11-03 17:45:46.906 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_34.webview.js
+[2025-11-03 17:45:46.906 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/miniprogram_npm/@henrydf/mp-redux-saga/index.js
+[2025-11-03 17:45:46.906 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/shop-busystatus/shop-busystatus.js
+[2025-11-03 17:45:46.906 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_24.appservice.js
+[2025-11-03 17:45:46.907 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/isNativeReflectConstruct.js
+[2025-11-03 17:45:46.907 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_53.appservice.js
+[2025-11-03 17:45:46.907 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\expiredGrowth\expiredGrowth.js
+[2025-11-03 17:45:46.917 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\ordercomment\ordercomment.js
+[2025-11-03 17:45:46.924 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_29.webview.js
+[2025-11-03 17:45:46.924 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\homeAddress\homeAddress.js
+[2025-11-03 17:45:46.931 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_49.webview.js
+[2025-11-03 17:45:46.932 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\rulePage\rulePage.js
+[2025-11-03 17:45:46.939 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/timer.js
+[2025-11-03 17:45:46.940 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\rechargeCard\rechargeCard.js
+[2025-11-03 17:45:46.950 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\pay\pages\paycode\paycode.js
+[2025-11-03 17:45:46.957 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/asyncToGenerator.js
+[2025-11-03 17:45:46.957 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/iterableToArrayLimit.js
+[2025-11-03 17:45:46.957 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_27.webview.js
+[2025-11-03 17:45:46.957 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\title\title.js
+[2025-11-03 17:45:46.962 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\store\store.js
+[2025-11-03 17:45:46.970 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/storeConfirm/storeConfirm.js
+[2025-11-03 17:45:46.970 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/locale.js
+[2025-11-03 17:45:46.971 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/chooseModal/chooseModal.js
+[2025-11-03 17:45:46.971 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\wrapAsyncGenerator.js
+[2025-11-03 17:45:46.986 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/AsyncGenerator.js
+[2025-11-03 17:45:46.987 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/couponsPopularize/couponsPopularize.js
+[2025-11-03 17:45:46.987 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_47.webview.js
+[2025-11-03 17:45:46.987 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_52.appservice.js
+[2025-11-03 17:45:46.987 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/utils/saga.js
+[2025-11-03 17:45:46.987 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_25.appservice.js
+[2025-11-03 17:45:46.989 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\extends.js
+[2025-11-03 17:45:47.006 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/countdown/countdown.js
+[2025-11-03 17:45:47.007 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/storeProduct/index.js
+[2025-11-03 17:45:47.007 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/dinnerChoose/dinnerChoose.js
+[2025-11-03 17:45:47.008 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/utils/data.js
+[2025-11-03 17:45:47.008 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\booking\booking.js
+[2025-11-03 17:45:47.019 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\workers.js
+[2025-11-03 17:45:48.337 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_12.webview.js
+[2025-11-03 17:45:48.337 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\loading\loading.js
+[2025-11-03 17:45:48.456 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/workflow/router.js
+[2025-11-03 17:45:48.456 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_22.webview.js
+[2025-11-03 17:45:48.456 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_32.webview.js
+[2025-11-03 17:45:48.456 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/mine-privilege/mine-privilege.js
+[2025-11-03 17:45:48.457 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_51.appservice.js
+[2025-11-03 17:45:48.457 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\task\extraInfo\index.js
+[2025-11-03 17:45:48.463 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_42.appservice.js
+[2025-11-03 17:45:48.464 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/carousel/carousel.js
+[2025-11-03 17:45:48.464 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/placeorder.js
+[2025-11-03 17:45:48.464 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\new\utils\public.js
+[2025-11-03 17:45:48.498 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_52.webview.js
+[2025-11-03 17:45:48.498 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/index/index.js
+[2025-11-03 17:45:48.499 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/activity.js
+[2025-11-03 17:45:48.499 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_42.webview.js
+[2025-11-03 17:45:48.499 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/promotion.js
+[2025-11-03 17:45:48.499 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_23.appservice.js
+[2025-11-03 17:45:48.499 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_33.appservice.js
+[2025-11-03 17:45:48.499 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_3.appservice.js
+[2025-11-03 17:45:48.500 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/utils/multiCooks.js
+[2025-11-03 17:45:48.500 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/index-adcarousel/index-adcarousel.js
+[2025-11-03 17:45:48.500 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/order-discount/order-discount.js
+[2025-11-03 17:45:48.501 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/waimaiFn.js
+[2025-11-03 17:45:48.501 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_4.appservice.js
+[2025-11-03 17:45:48.501 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/miniprogram_npm/@aliyun-sls/web-track-mini/index.js
+[2025-11-03 17:45:48.501 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\arrayWithoutHoles.js
+[2025-11-03 17:45:48.510 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/behavior-log.js
+[2025-11-03 17:45:48.510 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay/components/charge-detail/charge-detail.js
+[2025-11-03 17:45:48.511 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/@babel/runtime/helpers/possibleConstructorReturn.js
+[2025-11-03 17:45:48.511 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\utils\version.js
+[2025-11-03 17:45:48.520 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/reducer/waimai-wx.js
+[2025-11-03 17:45:48.521 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_15.appservice.js
+[2025-11-03 17:45:48.521 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\showLoading\showLoading.js
+[2025-11-03 17:45:48.525 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\nonIterableRest.js
+[2025-11-03 17:45:48.531 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/components/pay/components/charge-instruction/charge-instruction.js
+[2025-11-03 17:45:48.531 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/stores/newCart.js
+[2025-11-03 17:45:48.531 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/wxstorage.js
+[2025-11-03 17:45:48.531 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/app.js
+[2025-11-03 17:45:48.532 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\pay\pages\coupons\coupons.js
+[2025-11-03 17:45:48.541 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_14.appservice.js
+[2025-11-03 17:45:48.541 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/pages/userinfo/userinfo.js
+[2025-11-03 17:45:48.542 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/utils/payment.js
+[2025-11-03 17:45:48.542 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\utils\login.js
+[2025-11-03 17:45:48.559 INFO  1450]
+Processing C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\task\taskDetail\index.js
+[2025-11-03 17:45:48.568 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/new/workflow/auto_add_dish.js
+[2025-11-03 17:45:48.569 INFO  12073]
+Skipped minified JS file C:/Users/Lq0ne/source/repos/e0e1/result/1915牛肉面V+/chunk_41.appservice.js
+[2025-11-03 17:45:48.578 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\get-app-ext.js
+[2025-11-03 17:45:48.645 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\twoBorder\twoBorder.js
+[2025-11-03 17:45:48.647 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\dishCombo\dishCombo.js
+[2025-11-03 17:45:48.651 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\task\secretTask\index.js
+[2025-11-03 17:45:48.653 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\Objectentries.js
+[2025-11-03 17:45:48.660 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\allorder\allorder.js
+[2025-11-03 17:45:48.662 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\icon\icon.js
+[2025-11-03 17:45:48.666 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\orderList\orderList.js
+[2025-11-03 17:45:48.667 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\miniprogram_npm\mobx-miniprogram-bindings\index.js
+[2025-11-03 17:45:48.755 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\typeof.js
+[2025-11-03 17:45:48.760 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\editAddress\editAddress.js
+[2025-11-03 17:45:48.761 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\pay\pages\chargeRule\chargeRule.js
+[2025-11-03 17:45:48.761 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\invoicedList\invoicedList.js
+[2025-11-03 17:45:48.762 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\invoiceList\invoiceList.js
+[2025-11-03 17:45:48.763 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\order\order.js
+[2025-11-03 17:45:48.764 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\badge\pages\wall\index.js
+[2025-11-03 17:45:48.764 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\indexMap\indexMap.js
+[2025-11-03 17:45:48.765 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\bindcard\bindcard.js
+[2025-11-03 17:45:48.765 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\index\index.js
+[2025-11-03 17:45:48.766 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\utils\type.js
+[2025-11-03 17:45:48.767 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\increaseBuyPage\increaseBuyPage.js
+[2025-11-03 17:45:48.767 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\OverloadYield.js
+[2025-11-03 17:45:48.769 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\location\pages\shopList\shopList.js
+[2025-11-03 17:45:48.769 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\growthDetail\growthDetail.js
+[2025-11-03 17:45:48.769 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\test\main.js
+[2025-11-03 17:45:48.771 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\refund\refund.js
+[2025-11-03 17:45:48.772 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\arrayLikeToArray.js
+[2025-11-03 17:45:48.775 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\pay\pages\pay\pay.js
+[2025-11-03 17:45:48.775 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\defineProperty.js
+[2025-11-03 17:45:48.778 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\toPropertyKey.js
+[2025-11-03 17:45:48.780 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\invoice\invoice.js
+[2025-11-03 17:45:48.781 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\pay\pages\waiting\waiting.js
+[2025-11-03 17:45:48.782 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\spacing\spacing.js
+[2025-11-03 17:45:48.783 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\task\secretCenter\index.js
+[2025-11-03 17:45:48.784 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\badge\pages\detail\index.js
+[2025-11-03 17:45:48.784 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\phoneButton\phoneButton.js
+[2025-11-03 17:45:48.785 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\qiyu\index.js
+[2025-11-03 17:45:48.786 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\hasInvoice\hasInvoice.js
+[2025-11-03 17:45:48.786 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\setPassword\setPassword.js
+[2025-11-03 17:45:48.787 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\orderdetail\orderdetail.js
+[2025-11-03 17:45:48.787 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\recommendFullscreen\recommendFullscreen.js
+[2025-11-03 17:45:48.789 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\iterableToArray.js
+[2025-11-03 17:45:48.791 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\model\model.js
+[2025-11-03 17:45:48.792 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\selectCard\selectCard.js
+[2025-11-03 17:45:48.793 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\personal\personal.js
+[2025-11-03 17:45:48.793 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\createInvoice\createInvoice.js
+[2025-11-03 17:45:48.794 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\invoices\pages\invoiceDetail\invoiceDetail.js
+[2025-11-03 17:45:48.794 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\completeInfo\completeInfo.js
+[2025-11-03 17:45:48.796 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\assertThisInitialized.js
+[2025-11-03 17:45:48.797 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\classCallCheck.js
+[2025-11-03 17:45:48.799 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\CardList\CardList.js
+[2025-11-03 17:45:48.799 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\sectionRefund\sectionRefund.js
+[2025-11-03 17:45:48.800 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\nonIterableSpread.js
+[2025-11-03 17:45:48.801 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\search\search.js
+[2025-11-03 17:45:48.802 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\awaitAsyncGenerator.js
+[2025-11-03 17:45:48.804 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\arrayWithHoles.js
+[2025-11-03 17:45:48.805 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\objectWithoutPropertiesLoose.js
+[2025-11-03 17:45:48.811 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\activity\pages\luckyDraw\index.js
+[2025-11-03 17:45:48.812 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\objectDestructuringEmpty.js
+[2025-11-03 17:45:48.814 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\mine\mine.js
+[2025-11-03 17:45:48.814 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\Objectvalues.js
+[2025-11-03 17:45:48.819 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\setPrototypeOf.js
+[2025-11-03 17:45:48.820 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\getPrototypeOf.js
+[2025-11-03 17:45:48.823 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\orderTip\orderTip.js
+[2025-11-03 17:45:48.825 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\getLoginModal\getLoginModal.js
+[2025-11-03 17:45:48.827 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\copyright\copyright.js
+[2025-11-03 17:45:48.837 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\expiredGrowth\expiredGrowth.js
+[2025-11-03 17:45:48.837 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\order\pages\ordercomment\ordercomment.js
+[2025-11-03 17:45:48.839 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\homeAddress\homeAddress.js
+[2025-11-03 17:45:48.840 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\rulePage\rulePage.js
+[2025-11-03 17:45:48.840 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\personal\pages\rechargeCard\rechargeCard.js
+[2025-11-03 17:45:48.841 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\pay\pages\paycode\paycode.js
+[2025-11-03 17:45:48.842 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\title\title.js
+[2025-11-03 17:45:48.843 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\store\store.js
+[2025-11-03 17:45:48.844 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\wrapAsyncGenerator.js
+[2025-11-03 17:45:48.846 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\extends.js
+[2025-11-03 17:45:48.850 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\home\pages\booking\booking.js
+[2025-11-03 17:45:48.851 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\workers.js
+[2025-11-03 17:45:49.175 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\loading\loading.js
+[2025-11-03 17:45:49.244 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\task\extraInfo\index.js
+[2025-11-03 17:45:49.245 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\new\utils\public.js
+[2025-11-03 17:45:49.250 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\arrayWithoutHoles.js
+[2025-11-03 17:45:49.253 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\utils\version.js
+[2025-11-03 17:45:49.255 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\components\showLoading\showLoading.js
+[2025-11-03 17:45:49.256 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\@babel\runtime\helpers\nonIterableRest.js
+[2025-11-03 17:45:49.257 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\pay\pages\coupons\coupons.js
+[2025-11-03 17:45:49.257 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\utils\login.js
+[2025-11-03 17:45:49.259 INFO  1470]
+Translating C:\Users\Lq0ne\source\repos\e0e1\result\1915牛肉面V+\pages\task\taskDetail\index.js

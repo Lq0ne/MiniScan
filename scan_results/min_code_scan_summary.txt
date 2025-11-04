@@ -1,0 +1,10 @@
+CodeAnalyzer小程序扫描总结报告
+==================================================
+扫描时间: 2025-11-03 17:46:51
+扫描项目总数: 1
+成功扫描: 1
+失败扫描: 0
+使用的规则: core_javascript.bin, extended_javascript.bin, comm_universal.bin, core_cloud.bin
+
+成功项目:
+ - 1915牛肉面V+: FPR=scan_results\1915牛肉面V+.fpr, PDF=scan_results\1915牛肉面V+.pdf
