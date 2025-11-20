@@ -6,16 +6,45 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from yaml import safe_load
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CONFIG_DIR = os.path.join(BASE_DIR, "config")
+OUTPUT_DIR = os.path.join(BASE_DIR, "Output")
+SOURCE_DIR = os.path.join(OUTPUT_DIR, "Source")
+AUDIT_DIR = os.path.join(OUTPUT_DIR, "Audit")
+LOG_DIR = os.path.join(OUTPUT_DIR, "Log")
+
+os.makedirs(SOURCE_DIR, exist_ok=True)
+os.makedirs(AUDIT_DIR, exist_ok=True)
+os.makedirs(LOG_DIR, exist_ok=True)
+
 # 配置日志
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(os.path.join('.\\scan_results\\fortify_scan.log'), encoding='utf-8'),
+        logging.FileHandler(os.path.join(LOG_DIR, 'fortify_fortify.log'), encoding='utf-8'),
         logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
+
+
+def load_fortify_config():
+    """从 config/config.yaml 加载 Fortify 扫描相关配置"""
+    config_path = os.path.join(CONFIG_DIR, "config.yaml")
+    with open(config_path, "r", encoding="utf-8") as f:
+        cfg = safe_load(f) or {}
+    fortify_cfg = cfg.get("fortify_scan", {})
+    return {
+        "enabled": fortify_cfg.get("enabled", True),
+        "fortify_path": fortify_cfg.get("fortify_path", r"C:\Program Files\Fortify\OpenText_SAST_Fortify_25.3.0"),
+        "report_generator_path": fortify_cfg.get("report_generator_path", r"C:\Program Files\Fortify\OpenText_Application_Security_Tools_25.2.0\bin\ReportGenerator.bat"),
+        "result_dir": fortify_cfg.get("result_dir", "./Output/Source"),
+        "output_dir": fortify_cfg.get("output_dir", "./Output/Audit"),
+        "max_workers": fortify_cfg.get("max_workers", 1),
+    }
 class FortifyScanner:
     def __init__(self, fortify_path, result_dir, output_dir, report_generator_path, max_workers=1):
         """
@@ -283,7 +312,7 @@ class FortifyScanner:
                 scan_cmd.extend(["-rules", rules_arg])
            
             logger.info(f"执行扫描命令，项目: {orig_name} (ID: {project_id})")
-            logger.debug(f"扫描命令: {' '.join(scan_cmd)}")
+            logger.info(f"扫描命令: {' '.join(scan_cmd)}")
            
             # 执行扫描（实时输出）
             start_time = time.time()
@@ -324,7 +353,7 @@ class FortifyScanner:
             return None, None
     def generate_summary_report(self, scan_results):
         """生成扫描总结报告"""
-        summary_file = self.output_dir / "min_code_scan_summary.txt"
+        summary_file = Path(LOG_DIR) / "min_code_scan_summary.txt"
        
         with open(summary_file, 'w', encoding='utf-8') as f:
             f.write("CodeAnalyzer小程序扫描总结报告\n")
@@ -425,30 +454,25 @@ class FortifyScanner:
         logger.info("所有扫描任务完成")
 def main():
     """主函数"""
-    # 配置参数
-    FORTIFY_PATH = r"C:\Program Files\Fortify\OpenText_SAST_Fortify_25.3.0" # 修改为实际的Fortify安装路径
-    REPORT_GENERATOR_PATH = r"C:\Program Files\Fortify\OpenText_Application_Security_Tools_25.2.0\bin\ReportGenerator.bat"
-    RESULT_DIR = r"./result" # 小程序源码目录
-    OUTPUT_DIR = r"./scan_results" # 扫描结果输出目录
-    MAX_WORKERS = 1 # 最大线程数
-   
+    cfg = load_fortify_config()
+
     try:
         # 创建扫描器实例
         scanner = FortifyScanner(
-            fortify_path=FORTIFY_PATH,
-            result_dir=RESULT_DIR,
-            output_dir=OUTPUT_DIR,
-            report_generator_path=REPORT_GENERATOR_PATH,
-            max_workers=MAX_WORKERS
+            fortify_path=cfg["fortify_path"],
+            result_dir=cfg["result_dir"],
+            output_dir=cfg["output_dir"],
+            report_generator_path=cfg["report_generator_path"],
+            max_workers=cfg["max_workers"],
         )
-       
+
         # 执行扫描
         scanner.run_all_scans()
-       
+
     except Exception as e:
         logger.error(f"扫描过程发生错误: {e}")
         return 1
-   
+
     return 0
 if __name__ == "__main__":
     exit(main())

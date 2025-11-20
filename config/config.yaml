@@ -1,0 +1,60 @@
+mini_scan:
+  # WeChat mini program base directory
+  wx_dir: "C:\\Users\\Lq0ne\\Documents\\WeChat Files"
+
+  # Async HTTP scan switch
+  asyncio_http_enabled: false
+
+  # Output Excel file name for Mini-Scan results (stored under Output)
+  process_file: "Key.xlsx"
+
+  # Domains to be excluded from async HTTP scanning
+  not_asyncio_http:
+    - "weixin.qq.com"
+    - "www.w3.org"
+    - "map.qq.com"
+    - "restapi.amap.com"
+
+  # HTTP status codes to ignore in async HTTP scanning
+  not_asyncio_status:
+    - 404
+
+  # Thread pool max workers for Mini-Scan
+  max_workers: 5
+
+  # Timeout (seconds) for external WeChat unpack command
+  wx_cmd_timeout: 100
+
+  # Path to KillWxapkg.exe tool
+  unpack_tool: ".\\tools\\KillWxapkg.exe"
+
+  # Default pretty format switch for decompiled code
+  pretty_default: true
+
+  # Bot / notification related configuration (reserved)
+  bot_enabled: false
+  bot_api_id: ""
+  bot_api_secret: ""
+  bot_phone:
+    - ""
+
+fortify_scan:
+  # Enable or disable Fortify scanning
+  enabled: true
+
+  # Fortify installation path
+  fortify_path: "C:\\Program Files\\Fortify\\OpenText_SAST_Fortify_25.3.0"
+
+  # ReportGenerator.bat path
+  report_generator_path: "C:\\Program Files\\Fortify\\OpenText_Application_Security_Tools_25.2.0\\bin\\ReportGenerator.bat"
+
+  # Mini program source root directory (results from Mini-Scan)
+  result_dir: "./Output/Source"
+
+  # Fortify scan result output directory
+  output_dir: "./Output/Audit"
+
+  # Max workers for Fortify scans
+  max_workers: 1
+
+

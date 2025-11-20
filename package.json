@@ -1,7 +1,0 @@
-{
-  "name": "MiniScan",
-  "version": "0.1.0",
-  "description": "Modify e0e1 to support auto source code audit",
-  "main": "Mini-Scan.py",
-  "author": "Lq0ne"
-}
