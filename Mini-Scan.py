@@ -304,7 +304,7 @@ class WxTools:
         if not wx_dir:
             logger.error("未配置wx文件夹")
             sys.exit(0)
-        self.applet_dir = os.path.join(wx_dir, "Applet")
+        self.applet_dir = os.path.join(wx_dir)
         self.unpack_tool = self._cfg.unpack_tool
         self.pretty_default = self._cfg.pretty_default
 

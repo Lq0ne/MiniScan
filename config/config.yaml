@@ -1,6 +1,6 @@
 mini_scan:
   # WeChat mini program base directory
-  wx_dir: "C:\\Users\\Lq0ne\\Documents\\WeChat Files"
+  wx_dir: "C:\\Users\\Lq0ne\\AppData\\Roaming\\Tencent\\xwechat\\radium\\Applet\\packages"
 
   # Async HTTP scan switch
   asyncio_http_enabled: false
