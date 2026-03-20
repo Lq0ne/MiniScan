@@ -6,7 +6,7 @@ MiniScan is a Windows tool that:
 - **Scans the decompiled source** to extract URLs and potential secrets into Excel reports
 - **Optionally runs Fortify SCA** to perform static security analysis on the decompiled source and generate FPR/PDF reports
 
-MiniScan is designed to be packaged as a single `Mini-Scan.exe` via PyInstaller while keeping the `config` and `tools` folders external and editable.![image-20260320163433254](.\assets\image-20260320163433254.png)
+MiniScan is designed to be packaged as a single `Mini-Scan.exe` via PyInstaller while keeping the `config` and `tools` folders external and editable.![image-20260320163433254](assets/image-20260320163433254.png)
 
 ---
 
@@ -30,7 +30,7 @@ At runtime (either from source or from the built exe), the working directory sho
 - `result/`
   - One subfolder per decompiled mini program (source and Excel results)
 
-![image-20260320163645163](.\assets\image-20260320163645163.png)
+![image-20260320163645163](assets/image-20260320163645163.png)
 
 ---
 
@@ -220,7 +220,7 @@ Typical workflow:
 .\Mini-Scan.exe --scan-all
 ```
 
-![image-20260320170002334](.\assets\image-20260320170002334.png)
+![image-20260320170002334](assets/image-20260320170002334.png)
 
 ---
 
@@ -234,7 +234,7 @@ Behavior:
     - Log the cleanup result
   - If you skip, existing cache is kept
   
-  ![image-20260320170208429](.\assets\image-20260320170208429.png)
+  ![image-20260320170208429](assets/image-20260320170208429.png)
 - Then continuously:
   - Watches `wx_dir` for new mini program folders until you type `start` and Enter.
   - For each newly opened mini program:
@@ -251,7 +251,7 @@ Behavior:
     - If running in `--monitor` mode:
       - Triggers `fortify_scan.main()` to scan all projects under `Output/Source`
 
-![image-20260320170147734](.\assets\image-20260320170147734.png)
+![image-20260320170147734](assets/image-20260320170147734.png)
 
 Tips:
 
@@ -276,7 +276,7 @@ Use `--testing` when:
 - You only need the Excel results (`Key.xlsx`) and raw source under `result/`
 - Fortify is not installed or not configured yet
 
-![image-20260320170532939](.\assets\image-20260320170532939.png)
+![image-20260320170532939](assets/image-20260320170532939.png)
 
 ---
 
