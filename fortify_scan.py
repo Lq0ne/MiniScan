@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 import subprocess
 import threading
@@ -7,19 +8,20 @@ from pathlib import Path
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from yaml import safe_load
+from path_utils import get_base_dir, get_config_path, ensure_dir_exists
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = get_base_dir()
 CONFIG_DIR = os.path.join(BASE_DIR, "config")
 OUTPUT_DIR = os.path.join(BASE_DIR, "Output")
 SOURCE_DIR = os.path.join(OUTPUT_DIR, "Source")
 AUDIT_DIR = os.path.join(OUTPUT_DIR, "Audit")
 LOG_DIR = os.path.join(OUTPUT_DIR, "Log")
 
-os.makedirs(SOURCE_DIR, exist_ok=True)
-os.makedirs(AUDIT_DIR, exist_ok=True)
-os.makedirs(LOG_DIR, exist_ok=True)
+ensure_dir_exists(SOURCE_DIR)
+ensure_dir_exists(AUDIT_DIR)
+ensure_dir_exists(LOG_DIR)
 
-# 配置日志
+# Configure logging for Fortify scanner
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -32,30 +34,31 @@ logger = logging.getLogger(__name__)
 
 
 def load_fortify_config():
-    """从 config/config.yaml 加载 Fortify 扫描相关配置"""
-    config_path = os.path.join(CONFIG_DIR, "config.yaml")
+    """Load Fortify scanning configuration from config/config.yaml."""
+    config_path = get_config_path("config.yaml")
     with open(config_path, "r", encoding="utf-8") as f:
         cfg = safe_load(f) or {}
     fortify_cfg = cfg.get("fortify_scan", {})
+    miniscan_cfg = cfg.get("mini_scan", {})
     return {
         "enabled": fortify_cfg.get("enabled", True),
         "fortify_path": fortify_cfg.get("fortify_path", r"C:\Program Files\Fortify\OpenText_SAST_Fortify_25.3.0"),
         "report_generator_path": fortify_cfg.get("report_generator_path", r"C:\Program Files\Fortify\OpenText_Application_Security_Tools_25.2.0\bin\ReportGenerator.bat"),
-        "result_dir": fortify_cfg.get("result_dir", "./Output/Source"),
-        "output_dir": fortify_cfg.get("output_dir", "./Output/Audit"),
+        "result_dir": miniscan_cfg.get("output_dir", os.path.join(BASE_DIR, "Output", "Source")),
+        "output_dir": fortify_cfg.get("output_dir", os.path.join(BASE_DIR, "Output", "Audit")),
         "max_workers": fortify_cfg.get("max_workers", 1),
     }
 class FortifyScanner:
     def __init__(self, fortify_path, result_dir, output_dir, report_generator_path, max_workers=1):
         """
-        初始化Fortify扫描器
+        Initialize Fortify scanner.
        
         Args:
-            fortify_path: Fortify安装路径
-            result_dir: 小程序源码目录
-            output_dir: 扫描结果输出目录
-            report_generator_path: ReportGenerator.bat路径
-            max_workers: 最大线程数
+            fortify_path: Fortify installation path
+            result_dir: Mini program source root directory
+            output_dir: Fortify scan result output directory
+            report_generator_path: ReportGenerator.bat path
+            max_workers: maximum number of concurrent scan workers
         """
         self.fortify_path = Path(fortify_path)
         self.result_dir = Path(result_dir)
@@ -63,22 +66,22 @@ class FortifyScanner:
         self.report_generator_path = Path(report_generator_path)
         self.max_workers = max_workers
        
-        # 创建输出目录
+        # Ensure output directory exists
         self.output_dir.mkdir(parents=True, exist_ok=True)
        
-        # Fortify命令行工具路径
+        # Fortify CLI paths
         self.sourceanalyzer = self.fortify_path / "bin" / "sourceanalyzer.exe"
         self.fortifyclient = self.fortify_path / "bin" / "fortifyclient.exe"
        
-        # 规则文件路径
+        # Rules directory
         self.rules_dir = self.fortify_path / "Core" / "config" / "rules"
        
-        # 小程序相关文件扩展名
+        # Mini program related file extensions
         self.miniprogram_extensions = {
             '.js', '.wxml', '.wxss', '.json', '.jsx', '.ts', '.tsx', '.vue', '.html', '.css'
         }
        
-        # 需要排除的目录和文件
+        # Directories and files to exclude from scanning
         self.exclude_dirs = {
             'node_modules', '.git', 'dist', 'build',
             'test', 'tests', '__tests__', 'coverage'
@@ -88,28 +91,28 @@ class FortifyScanner:
             'package-lock.json', 'yarn.lock'
         }
        
-        # JavaScript和前端相关规则文件
+        # JavaScript and frontend related rule files
         self.javascript_rules = [
             "core_javascript.bin",
             "extended_javascript.bin",
-            "comm_universal.bin", # 通用规则
-            "core_cloud.bin" # 云安全相关规则
+            "comm_universal.bin",  # Common rules
+            "core_cloud.bin"       # Cloud security rules
         ]
     def validate_environment(self):
-        """验证环境和路径"""
+        """Validate environment and required paths."""
         if not self.fortify_path.exists():
-            raise FileNotFoundError(f"Fortify路径不存在: {self.fortify_path}")
+            raise FileNotFoundError(f"Fortify path does not exist: {self.fortify_path}")
        
         if not self.sourceanalyzer.exists():
-            raise FileNotFoundError(f"sourceanalyzer.exe未找到: {self.sourceanalyzer}")
+            raise FileNotFoundError(f"sourceanalyzer.exe not found: {self.sourceanalyzer}")
        
         if not self.report_generator_path.exists():
-            raise FileNotFoundError(f"ReportGenerator.bat未找到: {self.report_generator_path}")
+            raise FileNotFoundError(f"ReportGenerator.bat not found: {self.report_generator_path}")
        
         if not self.result_dir.exists():
-            raise FileNotFoundError(f"源码目录不存在: {self.result_dir}")
+            raise FileNotFoundError(f"Source directory does not exist: {self.result_dir}")
        
-        # 验证规则文件是否存在
+        # Validate that rule files exist
         missing_rules = []
         for rule in self.javascript_rules:
             rule_path = self.rules_dir / rule
@@ -117,35 +120,35 @@ class FortifyScanner:
                 missing_rules.append(rule)
        
         if missing_rules:
-            logger.warning(f"以下规则文件不存在: {missing_rules}")
+            logger.warning(f"The following rule files do not exist: {missing_rules}")
        
-        logger.info("环境验证通过")
+        logger.info("Fortify environment validation passed")
     def get_miniprogram_projects(self):
-        """获取所有小程序项目目录"""
+        """Get all mini program project directories under result_dir."""
         projects = []
         for item in self.result_dir.iterdir():
             if item.is_dir():
                 projects.append(item)
-                logger.info(f"发现小程序项目: {item.name}")
+                logger.info(f"Detected mini program project: {item.name}")
        
-        logger.info(f"共找到 {len(projects)} 个小程序项目")
+        logger.info(f"Total mini program projects found: {len(projects)}")
         return projects
     def is_relevant_file(self, file_path):
-        """检查文件是否为需要扫描的相关文件"""
+        """Check whether a file is relevant for scanning."""
         if file_path.suffix.lower() in self.miniprogram_extensions:
-            # 检查是否在排除模式中
+            # Check against exclude patterns
             for pattern in self.exclude_files:
                 if pattern in str(file_path):
                     return False
             return True
         return False
     def get_source_files(self, project_dir):
-        """获取项目中需要扫描的源文件"""
+        """Collect all relevant source files within a project directory."""
         source_files = []
         total_files = 0
        
         for root, dirs, files in os.walk(project_dir):
-            # 排除不需要的目录
+            # Remove excluded directories from traversal
             dirs[:] = [d for d in dirs if d not in self.exclude_dirs]
            
             for file in files:
@@ -154,10 +157,12 @@ class FortifyScanner:
                 if self.is_relevant_file(file_path):
                     source_files.append(str(file_path))
        
-        logger.info(f"项目 {project_dir.name}: 总文件数 {total_files}, 扫描文件数 {len(source_files)}")
+        logger.info(
+            f"Project {project_dir.name}: total files {total_files}, files to scan {len(source_files)}"
+        )
         return source_files
     def build_rules_argument(self):
-        """构建规则文件参数"""
+        """Build the rule file argument for sourceanalyzer."""
         rule_paths = []
         for rule_file in self.javascript_rules:
             rule_path = self.rules_dir / rule_file
@@ -165,33 +170,33 @@ class FortifyScanner:
                 rule_paths.append(str(rule_path))
        
         if not rule_paths:
-            logger.warning("未找到任何规则文件，将使用默认规则")
+            logger.warning("No JavaScript rule files found, using Fortify default rules")
             return None
        
-        # 将规则文件路径用分号连接
+        # Join rule paths with semicolons
         rules_arg = ";".join(rule_paths)
-        logger.info(f"使用规则文件: {rules_arg}")
+        logger.info(f"Using rule files: {rules_arg}")
         return rules_arg
     def translate_project(self, project_dir, project_id, orig_name):
-        """翻译项目文件（构建扫描会话）"""
+        """Translate project source files into a Fortify scan session."""
         try:
-            # 获取源文件（仅用于日志计数）
+            # Get candidate source files (for logging only)
             source_files = self.get_source_files(project_dir)
             if not source_files:
-                logger.warning(f"项目 {orig_name} 没有找到需要扫描的源文件")
+                logger.warning(f"Project {orig_name} has no relevant source files to scan")
                 return False
            
-            # 清理之前的翻译
+            # Clean any previous translation for this project id
             clean_cmd = [
                 str(self.sourceanalyzer),
                 "-b", project_id,
                 "-clean"
             ]
            
-            logger.info(f"执行清理项目 {orig_name} (ID: {project_id}): {' '.join(clean_cmd)}")
+            logger.info(f"Cleaning previous Fortify session for project {orig_name} (ID: {project_id}): {' '.join(clean_cmd)}")
             result_clean = subprocess.run(clean_cmd, check=True, capture_output=False, text=True, timeout=300)
            
-            # 构建翻译命令
+            # Build translation command
             translate_cmd = [
                 str(self.sourceanalyzer),
                 "-b", project_id,
@@ -199,44 +204,44 @@ class FortifyScanner:
                 str(project_dir)
             ]
            
-            # 添加排除目录
+            # Add excluded directories
             for dir_pattern in self.exclude_dirs:
                 translate_cmd.extend(["-exclude", f"{project_dir.name}/{dir_pattern}"])
            
-            # 添加排除文件模式（使用通配符）
+            # Add excluded file patterns (with wildcards)
             for file_pattern in self.exclude_files:
                 translate_cmd.extend(["-exclude", f"**/{file_pattern}"])
            
-            logger.info(f"开始翻译项目: {orig_name} (ID: {project_id})")
-            logger.debug(f"翻译命令: {' '.join(translate_cmd)}")
+            logger.info(f"Start translating project: {orig_name} (ID: {project_id})")
+            logger.debug(f"Translate command: {' '.join(translate_cmd)}")
            
-            # 执行翻译（实时输出）
+            # Execute translation
             start_time = time.time()
             result = subprocess.run(
                 translate_cmd,
                 check=True,
                 capture_output=False,
                 text=True,
-                timeout=1800 # 30分钟超时
+                timeout=1800  # 30 minutes timeout
             )
             end_time = time.time()
            
             translate_duration = end_time - start_time
-            logger.info(f"翻译完成: {orig_name}, 耗时: {translate_duration:.2f}秒")
+            logger.info(f"Translation completed: {orig_name}, duration: {translate_duration:.2f} seconds")
            
             return True
            
         except subprocess.CalledProcessError as e:
-            logger.error(f"翻译过程错误 - {orig_name} (ID: {project_id}): {e}")
+            logger.error(f"Translation error - {orig_name} (ID: {project_id}): {e}")
             return False
         except subprocess.TimeoutExpired:
-            logger.error(f"翻译超时 - {orig_name} (ID: {project_id})")
+            logger.error(f"Translation timeout - {orig_name} (ID: {project_id})")
             return False
         except Exception as e:
-            logger.error(f"翻译异常 - {orig_name} (ID: {project_id}): {e}")
+            logger.error(f"Unexpected translation exception - {orig_name} (ID: {project_id}): {e}")
             return False
     def generate_pdf_report(self, fpr_id_file, project_id, orig_name):
-        """使用ReportGenerator生成PDF报告"""
+        """Generate PDF report via Fortify ReportGenerator."""
         try:
             pdf_id_file = self.output_dir / f"{project_id}.pdf"
             report_cmd = [
@@ -246,53 +251,53 @@ class FortifyScanner:
                 "-f", str(pdf_id_file)
             ]
            
-            logger.info(f"生成PDF报告: {orig_name} (ID: {project_id})")
-            logger.debug(f"报告命令: {' '.join(report_cmd)}")
+            logger.info(f"Generating PDF report for project: {orig_name} (ID: {project_id})")
+            logger.debug(f"Report command: {' '.join(report_cmd)}")
            
             result = subprocess.run(
                 report_cmd,
                 check=True,
                 capture_output=False,
                 text=True,
-                timeout=600 # 10分钟超时
+                timeout=600  # 10 minutes timeout
             )
            
             if pdf_id_file.exists():
-                # 重命名PDF文件回原名
+                # Rename PDF back to original project name
                 pdf_orig_file = self.output_dir / f"{orig_name}.pdf"
                 os.rename(pdf_id_file, pdf_orig_file)
-                logger.info(f"PDF文件重命名完成: {project_id}.pdf -> {orig_name}.pdf")
+                logger.info(f"Renamed PDF file: {project_id}.pdf -> {orig_name}.pdf")
                
-                file_size = pdf_orig_file.stat().st_size / (1024 * 1024) # MB
-                logger.info(f"PDF报告生成成功: {orig_name}, 文件: {pdf_orig_file} ({file_size:.2f} MB)")
+                file_size = pdf_orig_file.stat().st_size / (1024 * 1024)  # MB
+                logger.info(f"PDF report generated successfully: {orig_name}, file: {pdf_orig_file} ({file_size:.2f} MB)")
                 return str(pdf_orig_file)
             else:
-                logger.error(f"PDF报告生成失败: {orig_name}, 未生成文件")
+                logger.error(f"PDF report generation failed: {orig_name}, no PDF file generated")
                 return None
                
         except subprocess.CalledProcessError as e:
-            logger.error(f"PDF报告生成错误 - {orig_name} (ID: {project_id}): {e}")
+            logger.error(f"PDF report generation error - {orig_name} (ID: {project_id}): {e}")
             return None
         except subprocess.TimeoutExpired:
-            logger.error(f"PDF报告生成超时 - {orig_name} (ID: {project_id})")
+            logger.error(f"PDF report generation timeout - {orig_name} (ID: {project_id})")
             return None
         except Exception as e:
-            logger.error(f"PDF报告生成异常 - {orig_name} (ID: {project_id}): {e}")
+            logger.error(f"Unexpected PDF report generation exception - {orig_name} (ID: {project_id}): {e}")
             return None
     def run_scan(self, project_dir, project_id, orig_name):
-        """执行单个项目的Fortify扫描"""
-        logger.info(f"开始扫描项目: {orig_name} (ID: {project_id})")
+        """Run Fortify scan for a single project."""
+        logger.info(f"Starting scan for project: {orig_name} (ID: {project_id})")
        
         try:
-            # 首先翻译项目
+            # First translate the project into a Fortify session
             if not self.translate_project(project_dir, project_id, orig_name):
-                logger.error(f"项目 {orig_name} 翻译失败，跳过扫描")
+                logger.error(f"Project {orig_name} translation failed, skipping scan")
                 return None, None
            
-            # 构建规则参数
+            # Build rules argument
             rules_arg = self.build_rules_argument()
            
-            # 执行扫描
+            # Run the scan
             fpr_id_file = self.output_dir / f"{project_id}.fpr"
             scan_cmd = [
                 str(self.sourceanalyzer),
@@ -300,127 +305,127 @@ class FortifyScanner:
                 "-scan",
                 "-f", str(fpr_id_file),
                 "-format", "fpr",
-                "-mt", # 启用多线程扫描
-                #"-Dcom.fortify.sca.ProjectRoot=.", # 设置项目根目录
-                "-Dcom.fortify.sca.Xmx=2G", # 限制内存使用
-                "-Dcom.fortify.sca.ThreadCount=2", # 限制扫描线程数
-                "-Dcom.fortify.sca.limiters=600" # 设置扫描超时
+                "-mt",  # enable multithreaded scanning
+                # "-Dcom.fortify.sca.ProjectRoot=.",  # set project root if needed
+                "-Dcom.fortify.sca.Xmx=2G",          # limit memory usage
+                "-Dcom.fortify.sca.ThreadCount=2",   # limit scan threads
+                "-Dcom.fortify.sca.limiters=600"     # scan time limit
             ]
            
-            # 添加规则文件参数
+            # Add rule file argument
             if rules_arg:
                 scan_cmd.extend(["-rules", rules_arg])
            
-            logger.info(f"执行扫描命令，项目: {orig_name} (ID: {project_id})")
-            logger.info(f"扫描命令: {' '.join(scan_cmd)}")
+            logger.info(f"Executing scan command for project: {orig_name} (ID: {project_id})")
+            logger.info(f"Scan command: {' '.join(scan_cmd)}")
            
-            # 执行扫描（实时输出）
+            # Execute scan
             start_time = time.time()
             result = subprocess.run(
                 scan_cmd,
                 check=True,
                 capture_output=False,
                 text=True,
-                timeout=3600 # 1小时超时
+                timeout=3600  # 1 hour timeout
             )
             end_time = time.time()
            
             scan_duration = end_time - start_time
-            logger.info(f"扫描完成: {orig_name}, 耗时: {scan_duration:.2f}秒")
+            logger.info(f"Scan completed: {orig_name}, duration: {scan_duration:.2f} seconds")
            
             if fpr_id_file.exists():
-                # 生成PDF报告（使用ID文件）
+                # Generate PDF report from ID-based FPR file
                 pdf_file = self.generate_pdf_report(fpr_id_file, project_id, orig_name)
                
-                # 重命名FPR文件回原名
+                # Rename FPR file back to original project name
                 fpr_orig_file = self.output_dir / f"{orig_name}.fpr"
                 os.rename(fpr_id_file, fpr_orig_file)
-                logger.info(f"FPR文件重命名完成: {project_id}.fpr -> {orig_name}.fpr")
+                logger.info(f"Renamed FPR file: {project_id}.fpr -> {orig_name}.fpr")
                
                 return str(fpr_orig_file), pdf_file
             else:
-                logger.error(f"扫描失败: {orig_name}, 未生成结果文件")
+                logger.error(f"Scan failed: {orig_name}, no FPR result file generated")
                 return None, None
                
         except subprocess.CalledProcessError as e:
-            logger.error(f"扫描过程错误 - {orig_name} (ID: {project_id}): {e}")
+            logger.error(f"Scan error - {orig_name} (ID: {project_id}): {e}")
             return None, None
         except subprocess.TimeoutExpired:
-            logger.error(f"扫描超时 - {orig_name} (ID: {project_id})")
+            logger.error(f"Scan timeout - {orig_name} (ID: {project_id})")
             return None, None
         except Exception as e:
-            logger.error(f"扫描异常 - {orig_name} (ID: {project_id}): {e}")
+            logger.error(f"Unexpected scan exception - {orig_name} (ID: {project_id}): {e}")
             return None, None
     def generate_summary_report(self, scan_results):
-        """生成扫描总结报告"""
+        """Generate a summary text report for all scans."""
         summary_file = Path(LOG_DIR) / "min_code_scan_summary.txt"
        
         with open(summary_file, 'w', encoding='utf-8') as f:
-            f.write("CodeAnalyzer小程序扫描总结报告\n")
+            f.write("MiniScan Fortify Scan Summary Report\n")
             f.write("=" * 50 + "\n")
-            f.write(f"扫描时间: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write(f"扫描项目总数: {len(scan_results)}\n")
+            f.write(f"Scan time: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"Total projects: {len(scan_results)}\n")
            
             successful_scans = [r for r in scan_results if r['success']]
             failed_scans = [r for r in scan_results if not r['success']]
            
-            f.write(f"成功扫描: {len(successful_scans)}\n")
-            f.write(f"失败扫描: {len(failed_scans)}\n")
-            f.write(f"使用的规则: {', '.join(self.javascript_rules)}\n\n")
+            f.write(f"Successful scans: {len(successful_scans)}\n")
+            f.write(f"Failed scans: {len(failed_scans)}\n")
+            f.write(f"Rule sets used: {', '.join(self.javascript_rules)}\n\n")
            
-            f.write("成功项目:\n")
+            f.write("Successful projects:\n")
             for result in successful_scans:
                 f.write(f" - {result['project_name']}: FPR={result['fpr_file']}, PDF={result.get('pdf_file', 'N/A')}\n")
            
             if failed_scans:
-                f.write("\n失败项目:\n")
+                f.write("\nFailed projects:\n")
                 for result in failed_scans:
-                    f.write(f" - {result['project_name']}: {result.get('error', '未知错误')}\n")
+                    f.write(f" - {result['project_name']}: {result.get('error', 'Unknown error')}\n")
        
-        logger.info(f"总结报告已生成: {summary_file}")
+        logger.info(f"Summary report generated: {summary_file}")
     def run_all_scans(self):
-        """执行所有项目的扫描"""
-        logger.info("开始批量扫描小程序项目")
+        """Run Fortify scans for all mini program projects under Output/Source."""
+        logger.info("Starting batch Fortify scan for all mini program projects")
        
-        # 验证环境
-        self.validate_environment()        
-        # 获取所有项目
+        # Validate environment
+        self.validate_environment()
+        # Get all projects
         all_projects = self.get_miniprogram_projects()
         if not all_projects:
-            logger.warning("未找到任何小程序项目")
+            logger.warning("No mini program projects found")
             return
        
-        # 过滤已扫描完成的项目
+        # Filter out projects that already have completed scan results
         projects = []
         for proj in all_projects:
             fpr_file = self.output_dir / f"{proj.name}.fpr"
             pdf_file = self.output_dir / f"{proj.name}.pdf"
             if fpr_file.exists() or pdf_file.exists():
-                logger.info(f"跳过已扫描项目: {proj.name}")
+                logger.info(f"Skipping already scanned project: {proj.name}")
             else:
                 projects.append(proj)
        
         if not projects:
-            logger.info("所有项目已扫描完成，无需进一步处理")
+            logger.info("All projects already scanned, nothing to do")
             return
        
-        logger.info(f"待扫描项目数: {len(projects)}")
+        logger.info(f"Projects to scan: {len(projects)}")
        
-        # 创建项目ID映射（处理中文名）
+        # Create project ID mapping (decouple from project names)
         project_to_id = {proj.name: f"{i:03d}" for i, proj in enumerate(projects)}
-        logger.info(f"项目ID映射: {project_to_id}")
+        logger.info(f"Project ID mapping: {project_to_id}")
        
         scan_results = []
        
-        # 使用线程池执行扫描
+        # Use thread pool to execute scans
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-            # 提交所有扫描任务
+            # Submit all scan tasks
             future_to_project = {
                 executor.submit(self.run_scan, project, project_to_id[project.name], project.name): project.name
                 for project in projects
             }
            
-            # 收集结果
+            # Collect results
             for future in as_completed(future_to_project):
                 orig_name = future_to_project[future]
                 project_id = project_to_id[orig_name]
@@ -433,31 +438,31 @@ class FortifyScanner:
                             'pdf_file': pdf_file,
                             'success': True
                         })
-                        logger.info(f"项目 {orig_name} 扫描成功")
+                        logger.info(f"Project {orig_name} scanned successfully")
                     else:
                         scan_results.append({
                             'project_name': orig_name,
-                            'error': '扫描失败，未生成结果文件',
+                            'error': 'Scan failed, no result file generated',
                             'success': False
                         })
-                        logger.error(f"项目 {orig_name} 扫描失败")
+                        logger.error(f"Project {orig_name} scan failed")
                 except Exception as e:
                     scan_results.append({
                         'project_name': orig_name,
                         'error': str(e),
                         'success': False
                     })
-                    logger.error(f"项目 {orig_name} 执行异常: {e}")
+                    logger.error(f"Project {orig_name} execution exception: {e}")
        
-        # 生成总结报告
+        # Generate summary report
         self.generate_summary_report(scan_results)
-        logger.info("所有扫描任务完成")
+        logger.info("All Fortify scan tasks completed")
 def main():
-    """主函数"""
+    """Entry point to run all Fortify scans based on configuration."""
     cfg = load_fortify_config()
 
     try:
-        # 创建扫描器实例
+        # Create scanner instance
         scanner = FortifyScanner(
             fortify_path=cfg["fortify_path"],
             result_dir=cfg["result_dir"],
@@ -466,11 +471,11 @@ def main():
             max_workers=cfg["max_workers"],
         )
 
-        # 执行扫描
+        # Run scans
         scanner.run_all_scans()
 
     except Exception as e:
-        logger.error(f"扫描过程发生错误: {e}")
+        logger.error(f"Fatal error occurred during Fortify scan: {e}")
         return 1
 
     return 0
