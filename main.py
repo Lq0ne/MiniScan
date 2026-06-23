@@ -51,16 +51,16 @@ def main() -> None:
     # ── Modes that require WeChat monitoring ──────────────────────────────
     wx_tools = WxTools(args)
 
-    if args.mode == "monitor":
+    if args.mode in ("monitor", "testing"):
         print(
-            "\n[WARNING] Monitor mode can remove WeChat mini program cache folders "
-            "under the configured wx_dir.\n"
+            "\n[WARNING] To detect mini programs that have been opened before, "
+            "existing cache folders under wx_dir must be removed first.\n"
             "This will force WeChat to regenerate mini program packages on next launch.\n"
             "Do you want to clean existing mini program cache folders now? "
             "(they will be deleted recursively)\n"
         )
         choice = input(
-            "Type 'Y' to proceed with cleanup, or anything else to cancel: "
+            "Type 'Y' to proceed with cleanup, or anything else to skip: "
         ).strip().lower()
         if choice == "y":
             logger.info(
@@ -72,7 +72,7 @@ def main() -> None:
                 "wx_dir cleanup finished. "
                 "Existing mini program cache folders were removed."
             )
-        else:
+        elif args.mode == "monitor":
             sys.exit(0)
 
     logger.info(f"Mini-Scan initialized in mode: {args.mode}")
