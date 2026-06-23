@@ -17,8 +17,8 @@ def get_base_dir():
         # 打包后的exe环境
         base_dir = os.path.dirname(sys.executable)
     else:
-        # 开发环境
-        base_dir = os.path.dirname(os.path.abspath(__file__))
+        # 开发环境 (在 miniscan/utils/ 目录下)
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     return base_dir
 
 

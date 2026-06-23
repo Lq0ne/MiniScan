@@ -1,0 +1,33 @@
+# ── Scan output (decompiled mini program source & security reports) ──────────
+Output/
+result/
+scan_results/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# ── PyInstaller build artifacts ──────────────────────────────────────────────
+build/
+dist/
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────
+.idea/
+.claude/
+.vscode/
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Local config (contains personal paths; use config.yaml.example as template) ──
+config/config.yaml

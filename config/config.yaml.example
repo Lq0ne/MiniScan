@@ -1,0 +1,58 @@
+mini_scan:
+  # Absolute path to WeChat mini program cache base directory
+  wx_dir: "C:\\Users\\<USER>\\AppData\\Roaming\\Tencent\\xwechat\\radium\\Applet\\packages"
+
+  # Output directory for decompiled mini program sources; must match fortify_scan.result_dir
+  output_dir: "./Output/Source"
+
+  # Enable async HTTP fuzzing for discovered URLs
+  asyncio_http_enabled: false
+
+  # Output Excel file name for Mini-Scan URL/secret results (stored under each result directory)
+  process_file: "Key.xlsx"
+
+  # Domains to exclude from async HTTP fuzzing
+  not_asyncio_http:
+    - "weixin.qq.com"
+    - "www.w3.org"
+    - "map.qq.com"
+    - "restapi.amap.com"
+
+  # HTTP status codes to ignore when collecting async HTTP results
+  not_asyncio_status:
+    - 404
+
+  # Max worker threads for Mini-Scan URL/secret extraction
+  max_workers: 5
+
+  # Timeout (seconds) for external WeChat unpack command
+  wx_cmd_timeout: 1000
+
+  # Path to KillWxapkg.exe tool (relative to working directory)
+  unpack_tool: ".\\tools\\KillWxapkg.exe"
+
+  # Default pretty formatting toggle for decompiled code (currently enforced by CLI)
+  pretty_default: true
+
+  # Bot / notification configuration (optional)
+  bot_enabled: false
+  bot_api_id: ""
+  bot_api_secret: ""
+  bot_phone:
+    - ""
+
+fortify_scan:
+  # Enable or disable Fortify scanning globally
+  enabled: true
+
+  # Fortify SCA installation path
+  fortify_path: "C:\\Program Files\\Fortify\\<FORTIFY_VERSION>"
+
+  # ReportGenerator.bat path
+  report_generator_path: "C:\\Program Files\\Fortify\\<AST_VERSION>\\bin\\ReportGenerator.bat"
+
+  # Fortify scan output directory for FPR/PDF reports
+  output_dir: "./Output/Audit"
+
+  # Max workers for parallel Fortify scans
+  max_workers: 1
