@@ -61,14 +61,8 @@ class Config:
         # Fortify config integration
         fortify_cfg = config.get("fortify_scan", {})
         self.fortify_enabled: bool = fortify_cfg.get("enabled", True)
-        self.fortify_path: str = fortify_cfg.get(
-            "fortify_path",
-            r"C:\Program Files\Fortify\OpenText_SAST_Fortify_25.3.0",
-        )
-        self.report_generator_path: str = fortify_cfg.get(
-            "report_generator_path",
-            r"C:\Program Files\Fortify\OpenText_Application_Security_Tools_25.2.0\bin\ReportGenerator.bat",
-        )
+        self.fortify_path: str = fortify_cfg.get("fortify_path", "")
+        self.report_generator_path: str = fortify_cfg.get("report_generator_path", "")
         audit_dir_config: str = fortify_cfg.get("output_dir", "./Output/Audit")
         if os.path.isabs(audit_dir_config):
             self.audit_dir = audit_dir_config
@@ -103,7 +97,8 @@ class Config:
                 for rule in rules
                 if rule.get("enabled", False) and rule.get("pattern", "")
             }
-        except Exception:
+        except Exception as e:
+            logging.warning("Failed to load rule.yaml, no regex rules will be applied: %s", e)
             self._regex_patterns = {}
 
         # URL extraction pattern (used by FileProcessor)

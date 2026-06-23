@@ -12,6 +12,8 @@ a = Analysis(
         'miniscan',
         'miniscan.config',
         'miniscan.cli',
+        'miniscan.utils',
+        'miniscan.utils.path_utils',
         'miniscan.scanner',
         'miniscan.scanner.file_processor',
         'miniscan.scanner.fortify',
