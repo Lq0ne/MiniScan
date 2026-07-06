@@ -22,10 +22,10 @@ from miniscan.wechat.tools import WxTools
 requests.packages.urllib3.disable_warnings()
 
 _BANNER = r"""
-░█▄█░▀█▀░█▀█░▀█▀░░░█▀▀░█▀▀░█▀█░█▀█░░░█░█░▀█░░░░░▀█░
-░█░█░░█░░█░█░░█░░░░▀▀█░█░░░█▀█░█░█░░░▀▄▀░░█░░░░░░█░
+░█▄█░▀█▀░█▀█░▀█▀░░░█▀▀░█▀▀░█▀█░█▀█░░░█░█░▀█░░░░░▀▀▄
+░█░█░░█░░█░█░░█░░░░▀▀█░█░░░█▀█░█░█░░░▀▄▀░░█░░░░░▄▀░
 ░▀░▀░▀▀▀░▀░▀░▀▀▀░░░▀▀▀░▀▀▀░▀░▀░▀░▀░░░░▀░░▀▀▀░▀░░▀▀▀
-  MiniScan_v1.1  Author: Lq0ne  Contributor: Xiaolin
+  MiniScan_v1.2  Author: Lq0ne  Contributor: Xiaolin
   Mode: {mode}
 """
 

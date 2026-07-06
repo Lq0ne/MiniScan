@@ -685,10 +685,10 @@ if __name__ == "__main__":
     args = parse_arguments()
     mode_display = args.mode.upper()
     print(f'''
-░█▄█░▀█▀░█▀█░▀█▀░░░█▀▀░█▀▀░█▀█░█▀█░░░█░█░▀█░░░░░▀█░
-░█░█░░█░░█░█░░█░░░░▀▀█░█░░░█▀█░█░█░░░▀▄▀░░█░░░░░░█░
+░█▄█░▀█▀░█▀█░▀█▀░░░█▀▀░█▀▀░█▀█░█▀█░░░█░█░▀█░░░░░▀▀▄
+░█░█░░█░░█░█░░█░░░░▀▀█░█░░░█▀█░█░█░░░▀▄▀░░█░░░░░▄▀░
 ░▀░▀░▀▀▀░▀░▀░▀▀▀░░░▀▀▀░▀▀▀░▀░▀░▀░▀░░░░▀░░▀▀▀░▀░░▀▀▀
-  MiniScan V1.1 Author: Lq0ne Contributor: Xiaolin
+  MiniScan V1.2 Author: Lq0ne Contributor: Xiaolin
         Mode: {mode_display}
     ''') # Pagga字体
 
