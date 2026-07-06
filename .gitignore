@@ -31,3 +31,6 @@ Thumbs.db
 
 # ── Local config (contains personal paths; use config.yaml.example as template) ──
 config/config.yaml
+
+# ── Output Folder─────────────────────────────────────────────────────────────
+Output/
